@@ -1,2 +1,2 @@
 # LOTR-RiseToWar-Simulator
-Battle Simulator for LOTR: Rise to War
+This is a very simple battle simulator for LOTR Rise to War
