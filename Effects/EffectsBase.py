@@ -9,7 +9,7 @@ class Effect():
 
     def activate(self,targets):
         pass
-    def select_targets(targets):
+    def select_targets(self,targets):
         return targets
 class Damage(Effect):
     def __init__(self,activation_chance,DamageMultiplier,ntargets):
@@ -18,8 +18,9 @@ class Damage(Effect):
         super().__init__()
 
 class PhysicalDamage(Damage):
-    def __init__(self,activation_chance,DamageMultiplier):
-        
+    def __init__(self,activation_chance=1,DamageMultiplier=1):
+        self.activation_chance=activation_chance
+        self.DamageMultiplier=DamageMultiplier
         super().__init__()
 
 class CommanderPhysicalDamage(PhysicalDamage):

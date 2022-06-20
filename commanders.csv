@@ -1,0 +1,67 @@
+﻿Commander,Side,Tier,BaseMight,MightScaling,BaseFocus,FocusScaling,BaseSpeed,SpeedScaling,Class
+Boromir,Good,1,93,2.04,58,0.95,65,1.06,Leader
+Dwalin,Good,1,91,2,49,0.71,58,1.27,Warrior
+Eowyn,Good,1,80,1.75,71,1.03,107,1.54,Balanced
+Faramir,Good,1,76,1.52,95,1.9,73,1.46,Balanced
+Haldir,Good,1,89,1.78,65,1.06,77,1.26,Balanced
+Hirgon,Good,1,81,1.32,77,1.26,100,2.19,Warrior
+Merry+Pippen,Good,1,32,0.58,85,1.55,85,1.39,Support
+Ori,Good,1,82,1.49,79,2.03,55,0.9,Balanced
+Aragorn,Good,2,96,2.1,70,1.01,89,1.62,Balanced
+Arwen,Good,2,48,0.6,91,1.82,92,1.5,Support
+Balin,Good,2,99,1.98,89,1.78,62,0.9,Leader
+Celeborn,Good,2,71,1.03,97,1.94,47,0.59,Support
+Denthor,Good,2,21,0.27,95,2.08,52,0.75,Support
+Elladen,Good,2,96,2.1,70,1.4,89,1.62,Warrior
+Elohir,Good,2,86,1.89,85,1.7,71,1.29,Balanced
+Eomer,Good,2,96,1.9,70,0.85,89,2.37,Balanced
+Falgrin,Good,2,92,1.67,56,1.02,60,0.75,Leader
+Frodo+Sam,Good,2,32,0.4,85,2.02,66,1.08,Support
+Gandalf (Grey),Good,2,80,1,101,2.4,45,0.82,Support
+Gimili,Good,2,100,2.38,54,0.78,35,0.7,Warrior
+Imrahil,Good,2,90,1.64,76,1.67,105,2.1,Leader
+Legolas,Good,2,90,1.8,77,1.54,82,1.64,Warrior
+Theodeon,Good,2,88,1.43,83,1.66,103,2.06,Leader
+Aragorn (King of Men),Good,3,99,2.17,83,1.66,91,2,Leader
+Cirdan,Good,3,85,1.55,110,2.62,108,2.37,Leader
+Dain,Good,3,105,2.7,45,0.57,37,0.74,Warrior
+Elrond,Good,3,94,1.8,99,1.98,85,1.23,Support
+Galadriel,Good,3,55,0.69,113,3.11,35,0.84,Strategist
+Gandalf(White),Good,3,80,1.15,109,2.8,81,1.32,Strategist
+GilGalad,Good,3,95,1.9,92,2.02,75,1.08,Leader
+King of the Dead,Good,3,81,1.62,81,1.02,85,2.18,Leader
+Radagast,Good,3,58,0.73,103,2.26,110,2,Support
+Thorin,Good,3,103,2.45,75,1.36,78,1.27,Leader
+Thranduil,Good,3,92,1.84,81,1.32,88,1.76,Warrior
+Treebeard,Good,3,150,3.85,88,1.76,10,0.13,Balanced
+Agzok,Evil,1,91,2,44,0.55,51,0.83,Warrior
+Gorbag,Evil,1,85,1.7,62,0.9,74,0.93,Leader
+Grima,Evil,1,30,0.49,87,1.74,85,1.39,Support
+Khaldoon,Evil,1,82,1.95,61,1.11,78,1.13,Warrior
+Maltok,Evil,1,65,1.3,71,1.56,92,1.84,Leader
+Shagrat,Evil,1,91,2,37,0.61,35,0.64,Support
+Sharku,Evil,1,57,0.82,87,1.58,88,1.76,Strategist
+Ugthak,Evil,1,94,2.06,41,0.59,45,0.74,Warrior
+Yusraa,Evil,1,76,1.1,87,1.91,70,1.01,Warrior
+Aduae,Evil,2,76,1.52,76,1.52,83,1.04,Balanced
+Azru-Khor,Evil,2,82,1.49,82,1.49,82,1.49,Support
+Gothmog,Evil,2,78,1.56,93,2.21,51,0.64,Leader
+Grishnakh,Evil,2,45,0.57,88,1.76,83,1.66,Support
+Khamul,Evil,2,97,1.76,92,1.84,95,1.55,Strategist
+Lurtz,Evil,2,104,2.67,31,0.39,75,1.36,Warrior
+Mouth of Sauron,Evil,2,38,0.48,100,2.19,81,1.78,Balanced
+Qurwan,Evil,2,89,1.95,88,1.76,45,0.9,Support
+Shadow,Evil,2,97,1.94,89,1.78,78,1.27,Strategist
+Ugluk,Evil,2,93,2.21,32,0.52,45,0.99,Warrior
+Zegrid,Evil,2,94,2.24,24,0.3,65,1.06,Warrior
+Beruthiel,Evil,3,20,0.25,91,2.17,28,0.41,Support
+Black Serpant,Evil,3,85,1.07,91,2,86,1.72,Strategist
+Kirun,Evil,3,91,1.82,85,1.86,57,0.82,Leader
+Saruman,Evil,3,75,1.08,108,2.77,45,0.57,Balanced
+Sauron,Evil,3,75,1.22,115,2.95,61,1,Strategist
+The Undying,Evil,3,100,2.38,65,1.18,58,1.06,Support
+Witch King,Evil,3,103,2.26,92,1.67,105,1.91,Leader
+Lathar,Evil,2,99,,42,,87,,Balanced
+Glasha,Evil,2,50,,95,,56,,Strategist
+Cestaro,Evil,3,35,,100,,58,,Strategist
+Skalhelm,Evil,3,95,,91,,99,,Balanced
