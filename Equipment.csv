@@ -1,0 +1,79 @@
+Name,Rarity,CommanderMight,CommanderFocus,CommanderSpeed,RequiredRaces,UnitBonuses
+Orc Dagger,1,4,2,0,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Broadsword,1,5,0,0,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Bone Hatchet,1,4,1,0,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Ne'er Do Well's Coat,1,3,0,4,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Light Helm,1,4,0,2,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Ranger's Dagger,2,8,0,6,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,
+Haradrim Bow,2,6,0,0,Maiar|Men|Elves|Orcs|Uruk-hai|Undead|Evil Men,Attack(Ranged)+1
+Orc Crossbow,2,6,0,0,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,HP(Ranged)+1
+Orc Scimitar,2,6,0,9,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Broad Axe,2,6,0,0,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Attack(Melee)+1
+Spear of the Rangers,2,6,4,4,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,
+Uruk-hai Pike,2,12,0,0,Maiar|Men|Orcs|Uruk-hai|Undead|Evil Men,
+Garrison Coat,2,6,0,0,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,HP(Melee)+1
+Hunters Coat,2,6,0,0,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,HP(Ranged)+1
+Old Casque,2,12,0,0,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Rough Breastplate,2,6,0,0,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,Defense(Melee)+5
+Morningstar,2,6,0,0,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,HP(Melee)+1
+Leather Armor,2,8,3,3,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Hithlain,3,4,6,0,Maiar|Men|Elves|Dwarves|Hobbits|Ents,HP(ALL)+1
+Hobbit Fiddle,3,0,10,0,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men|Ents,Speed(ALL)+5
+Worn-out Smoking Pipe,3,0,15,0,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Evil Men|Ents,
+Mirkwood Bow,3,8,0,6,Maiar|Men|Elves|Evil Men,Attack(Ranged)+1
+Harp of Lothlorien,3,0,12,0,Maiar|Men|Elves|Dwarves|Hobbits|Ents,Speed(Elves)+5
+Battle Axe,3,16,0,0,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,
+Cutlass,3,8,6,0,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Attack(Melee)+1
+War Hammer,3,12,0,0,Maiar|Elves|Dwarves|Orcs|Uruk-hai|Undead|Ents,Defense(Dwarves)+7
+Scout's Mail,3,10,0,12,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Scale Mail,3,6,6,0,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,Defense(Melee)+5
+Horseman's Helm,3,8,0,8,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Defense(MountedUnit)+5
+Bone Mask,3,6,6,0,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,HP(ALL)+1
+Carver,3,8,8,0,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Attack(Men)+1|Attack(Evil Men)+1
+Elven Dirk,3,6,6,4,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,Speed(Elves)+5
+Quilted Armor,3,10,4,6,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Full Helm,3,15,0,0,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,
+Trapper's Hood,3,0,6,9,Maiar|Men|Elves|Hobbits|Uruk-hai|Undead|Evil Men|Ents,Attack(Ranged)+1
+Hunter's Skin,3,0,8,6,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Evil Men,Defense(Ranged)+5
+Wizard's Fireworks,3,0,12,0,Maiar|Men|Dwarves|Hobbits|Evil Men,Attack(Ranged)+1
+Arnor Casque,3,6,10,0,Maiar|Men|Elves|Dwarves|Hobbits|Undead|Evil Men,
+Elven Cloak,4,,12,6,Maiar|Men|Elves|Dwarves|Hobbits|Ents,HP(ALL)+1
+Night Star,4,4,14,4,Maiar|Men|Elves|Dwarves|Hobbits|Ents,Speed(Men)+5
+Axe of Khazad-dum,4,21,,,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men|Ents,
+Noldor Sword,4,10,5,5,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,Attack(Men)+1|Attack(Elves)+1
+Silver Harp of Rivendell,4,4,16,,Maiar|Men|Elves|Dwarves|Hobbits|Ents,Defense(Elves)+5
+Fine Smoking Pipe,4,0,,20,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Evil Men|Ents,HP(Melee)+1
+Bow of the High Elves,4,14,4,,Maiar|Men|Elves|Evil Men,Speed(Ranged)+5
+Dawn,4,15,,,Maiar|Men|Elves|Dwarves|Hobbits,Speed(Men)+9
+Nightfall,4,14,0,9,Maiar|Men|Orcs|Uruk-hai|Undead|Evil Men,Speed(Uruk-Hai)+5
+Lhang,4,12,8,,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,HP(Elves)+1
+Fiddle of the Eldest,4,4,10,,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men|Ents,Defense(ALL)+5|Speed(ALL)+5
+Golden Skin,4,12,12,,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Plate of the Citadel,4,4,12,,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,Defense(Men)+9
+Durin's Plate,4,14,,,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,HP(Dwarves)+1|Attack(Dwarves)+1
+Swan Helm,4,4,16,,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Defense(Men)+5
+High Elf's Helmet,4,6,10,,Maiar|Men|Elves|Dwarves|Hobbits,Defense(Elves)+5
+Iron Basinet,4,14,,,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Defense(Dwarves)+10
+Lothlorien Belt,4,,12,10,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,Speed(Ranged)+8
+Hammer of Moria,4,17,,,Maiar|Dwarves|Orcs|Uruk-hai|Undead|Evil Men|Ents,Defense(Dwarves)+8
+Sand Claw,4,10,4,9,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Attack(Evil Men)+1
+Reach of the Riddermark,4,10,,10,Maiar|Men|Elves|Orcs|Uruk-hai|Undead|Evil Men|Ents,Speed(MountedUnit)+8
+Mattock of the Iron Hills,4,13,,,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men|Ents,Attack(Dwarves)+2
+High Elf Hauberk,4,12,6,4,Maiar|Men|Elves|Dwarves|Hobbits,Defense(Elves)+5
+Erebor's Pride,4,10,,,Maiar|Men|Dwarves|Hobbits|Evil Men,HP(Dwarves)+2
+Casque of Pride,4,11,,,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Defense(Melee)+10
+hunter's Guide,4,9,9,,Maiar|Men|Elves|Dwarves|Uruk-hai|Evil Men,Attack(Ranged)+1
+Warborn Battle Plate,4,11,,,Maiar|Men|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,Defense(Melee)+5|Speed(Melee)+5
+Rang'er s Shroud,4,9,,14,Maiar|Men|Elves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Attack(Ranged)+1
+Casque of the Submerged Isle,4,10,10,4,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Caul of the Forest,4,0,8,,Maiar|Men|Elves|Dwarves|Hobbits|Undead|Evil Men|Ents,Defense(Beasts)+15
+Ent'draught Calabash,4,10,,,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men|Ents,HP(ALL)+2
+Grey Wizard hat,4,,16,,Maiar|Men|Elves|Dwarves|Hobbits|Undead|Evil Men|Ents,HP(Men)+1|HP(Elves)+1|HP(Dwarves)+1|HP(Hobbits)+1
+Elven White Knife,4,12,,,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,Attack(Elves)+2
+Obsidian Dagger,4,8,12,,Maiar|Undead|Evil Men,Attack(Undead)+1
+Mirkwood's Thorns,4,4,10,,Maiar|Elves|Ents,Attack(Beasts)+2
+Explorer's Outfit,4,10,10,,Maiar|Men|Hobbits,HP(Men)+1|HP(Hobbits)+1
+Massive Breastplate,4,8,,,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men|Ents,Defense(ALL)+10|Defense(LargeUnits)+5
+Defender of the Mountain,4,,14,,Maiar|Dwarves,Defense(Dwarves)+10
+Box of Knowledge,4,8,8,,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men|Ents,HP(ALL)+1
+Mithril Coat,4,8,,,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Defense(ALL)+12
