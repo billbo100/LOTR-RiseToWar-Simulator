@@ -28,10 +28,28 @@ class Commander(QWidget):
         self.LevelSelect.valueChanged.connect(self.calculateSkillPoints)
         self.RespectSelect.valueChanged.connect(self.calculateSkillPoints)
         self.load_Equipment()
+        self.Equipment_sort=QComboBox()
+        all_vals=list(self.Equipment_DF.columns)
+        non_sortable=["EquipmentType","Maiar","Men","Elves","Dwarves","Undead","Evil Men","Ents","Orcs","Uruk-hai","Hobbits"]
+        sortable_vals=[x for x in all_vals if (not x in non_sortable)]
+        self.Equipment_sort.addItems(sortable_vals)
+        self.Equipment_sort.currentIndexChanged.connect(self.set_update_equipment_sorting)
+        
         self.weapon=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Weapon"])
+        self.weapon.itemSelect.currentIndexChanged.connect(self.updateCommanderStats)
+        self.weapon.strengthenSelect.valueChanged.connect(self.updateCommanderStats)
+        
         self.chest=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Armor"])
+        self.chest.itemSelect.currentIndexChanged.connect(self.updateCommanderStats)
+        self.chest.strengthenSelect.valueChanged.connect(self.updateCommanderStats)
+        
         self.head=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Helmet"])
+        self.head.itemSelect.currentIndexChanged.connect(self.updateCommanderStats)
+        self.head.strengthenSelect.valueChanged.connect(self.updateCommanderStats)
+        
         self.accessory=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Accessory"])
+        self.accessory.itemSelect.currentIndexChanged.connect(self.updateCommanderStats)
+        self.accessory.strengthenSelect.valueChanged.connect(self.updateCommanderStats)
         
         
         l=QGridLayout()
@@ -42,6 +60,7 @@ class Commander(QWidget):
         l.addWidget(self.CommanderMight,1,0)
         l.addWidget(self.CommanderFocus,1,1)
         l.addWidget(self.CommanderSpeed,1,2)
+        l.addWidget(self.Equipment_sort,1,3)
         l.addWidget(self.weapon,2,0)
         l.addWidget(self.chest,2,1)
         l.addWidget(self.head,2,2)
@@ -49,18 +68,38 @@ class Commander(QWidget):
         self.setLayout(l)
     def load_Equipment(self):
         self.Equipment_DF=pd.read_csv("EquipmentFull.csv",index_col="Name")
-        print(self.Equipment_DF)
+        
+    def get_equipment_stats(self):
+        
+        wm,wf,ws=self.weapon.get_stats()
+        sm,sf,ss=self.chest.get_stats()
+        hm,hf,hs=self.head.get_stats()
+        hm,hf,hs=self.head.get_stats()
+        am,af,a_s=self.accessory.get_stats()
+        m=wm+sm+hm+am
+        f=wf+sf+hf+af
+        s=wf+ss+hs+a_s
+        return m,f,s
     def set_commander(self,commander):
         self.Commander=commander
         self.updateCommanderStats()
-        self.weapon.set_commander_restrictions(commander['Race'])
-        self.chest.set_commander_restrictions(commander['Race'])
-        self.head.set_commander_restrictions(commander['Race'])
-        self.accessory.set_commander_restrictions(commander['Race'])
+        self.weapon.set_commander_restrictions(commander['Race'],self.Equipment_sort.currentText())
+        self.chest.set_commander_restrictions(commander['Race'],self.Equipment_sort.currentText())
+        self.head.set_commander_restrictions(commander['Race'],self.Equipment_sort.currentText())
+        self.accessory.set_commander_restrictions(commander['Race'],self.Equipment_sort.currentText())
+    def set_update_equipment_sorting(self):
+        self.weapon.set_commander_restrictions(self.Commander['Race'],self.Equipment_sort.currentText())
+        self.chest.set_commander_restrictions(self.Commander['Race'],self.Equipment_sort.currentText())
+        self.head.set_commander_restrictions(self.Commander['Race'],self.Equipment_sort.currentText())
+        self.accessory.set_commander_restrictions(self.Commander['Race'],self.Equipment_sort.currentText())
     def updateCommanderStats(self):
         Might=self.calculateMight()
         Focus=self.calculateFocus()
         Speed=self.calculateSpeed()
+        m,f,s=self.get_equipment_stats()
+        Might+=m
+        Focus+=f
+        Speed+=s
         self.CommanderMight.setText("Might: %d"%(Might))
         self.CommanderFocus.setText("Focus: %d"%(Focus))
         self.CommanderSpeed.setText("Speed: %d"%(Speed))

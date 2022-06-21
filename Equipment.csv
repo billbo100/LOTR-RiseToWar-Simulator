@@ -42,7 +42,7 @@ Night Star,Accessory,Good,4,4,14,4,Maiar|Men|Elves|Dwarves|Hobbits|Ents,Speed(Me
 Axe of Khazad-dum,Weapon,Good|Evil,4,21,0,0,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men|Ents,
 Noldor Sword,Weapon,Good,4,10,5,5,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,Attack(Men)+1|Attack(Elves)+1
 Silver Harp of Rivendell,Accessory,Good,4,4,16,0,Maiar|Men|Elves|Dwarves|Hobbits|Ents,Defense(Elves)+5
-Fine Smoking Pipe,Accessory,Good|Evil,4,0,0,20,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Evil Men|Ents,HP(Melee)+1
+Fine Smoking Pipe,Accessory,Good|Evil,4,0,20,0,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Evil Men|Ents,HP(Melee)+1
 Bow of the High Elves,Weapon,Good|Evil,4,14,4,0,Maiar|Men|Elves|Evil Men,Speed(Ranged)+5
 Dawn,Weapon,Good,4,15,0,0,Maiar|Men|Elves|Dwarves|Hobbits,Speed(Men)+9
 Nightfall,Weapon,Good|Evil,4,14,0,9,Maiar|Men|Orcs|Uruk-hai|Undead|Evil Men,Speed(Uruk-Hai)+5

@@ -11,14 +11,14 @@ class BattleSim(QMainWindow):
         
         self.setCentralWidget(self.mainWidget)
         
-        self.Attacker=Army("Attacking Commander")
-        self.Defender=Army("Defending Commander")
+        self.Attacker=Army("Attacking Army")
+        self.Defender=Army("Defending Army")
         
         
         
         l=QGridLayout()
         l.addWidget(self.Attacker,0,0)
-        l.addWidget(self.Defender,0,1)
+        # l.addWidget(self.Defender,0,1)
         self.mainWidget.setLayout(l)
 
     
