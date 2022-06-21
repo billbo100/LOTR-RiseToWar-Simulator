@@ -35,7 +35,7 @@ if __name__ == '__main__':
     QApplication.setAttribute(Qt.AA_Use96Dpi)
     app = QApplication(sys.argv)
     app.setAttribute(Qt.AA_Use96Dpi)
-    app.setStyle("Fusion")
+    # app.setStyle("Fusion")
     aw = BattleSim()
     aw.show()
     app.exec_()   

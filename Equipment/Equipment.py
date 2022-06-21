@@ -6,12 +6,16 @@ Created on Jun 20, 2022
 from PySide2.QtWidgets import QWidget, QComboBox, QGridLayout, QLabel, QSpinBox
 from math import floor
 from PySide2.QtGui import QColor
-
+import numpy as np
+from fractions import Fraction
+from string import Template
+from textwrap import TextWrapper
 class EquipmentBase(QWidget):
 
-    def __init__(self,df):
+    def __init__(self,equip_df,perk_df):
         QWidget.__init__(self)
-        self.full_df=df
+        self.full_df=equip_df
+        self.perk_df=perk_df
         self.itemSelect=QComboBox()
         self.itemSelect.setStyleSheet('selection-background-color: rgba(0,0,0,0)')
         self.itemSelect.setStyleSheet('QComboBox{selection-border-color: rgb(0,0,0);}')
@@ -22,26 +26,51 @@ class EquipmentBase(QWidget):
         self.refinementSelect=QSpinBox()
         self.strengthenSelect.setMinimum(0)
         self.refinementSelect.setMinimum(0)
-        
+        self.perk=QLabel()
+        self.perkSelect=QComboBox()
+        self.perkSelect.currentIndexChanged.connect(self.update_perk)
         self.level_chart=[1,1.3,1.6,2,2.5,3]
         self.itemSelect.currentIndexChanged.connect(self.update_item)
         self.strengthenSelect.valueChanged.connect(self.update_strengthen)
-        
-        
+        self.wrapper=TextWrapper(50)
+        self.refinementSelect.valueChanged.connect(self.update_perk)
         l=QGridLayout()
         l.addWidget(self.itemSelect,0,0,1,-1)
         l.addWidget(self.strengthen_label,1,0)
         l.addWidget(self.strengthenSelect,1,1)
         l.addWidget(self.refinement_label,2,0)
         l.addWidget(self.refinementSelect,2,1)
+        l.addWidget(self.perkSelect,3,0,1,-1)
+        l.addWidget(self.perk,4,0,1,-1)
         self.setLayout(l)
     def update_strengthen(self):
         if(len(self.selected_Item)>0):
             if(self.selected_Item["Rarity"]>2):
                 self.refinementSelect.setMaximum(self.strengthenSelect.value())
+    def update_perk(self):
+        
+        self.perk.setText('')
+        name=self.perkSelect.currentText()
+        if(name!=''):
+            perk=self.perk_df.loc[name]
+            eff=perk["Effect"]
+            if("$VAL") in eff:
+                start_vs=[float(Fraction(sv)) for sv in np.array(perk["StartVal"].split("|"))]
+                
+                per_vals=np.array([float(Fraction(pv)) for pv in perk["PerRefinement"].split("|")])*self.refinementSelect.value()
+                vals=np.round(start_vs+per_vals,1)
+                t=Template(eff)
+                effect_descript=t.substitute(VAL=vals[0])
+                self.perk.setText(self.wrapper.fill("%s:%s"%(name,effect_descript)))
+                
+                
     def update_item(self):
+        self.perkSelect.clear()
         if(self.itemSelect.currentText()!='' and self.itemSelect.currentIndex()!=0):
             self.selected_Item=self.partial_df.loc[self.itemSelect.currentText().split('(')[0].strip()]
+            
+            self.perkSelect.addItems(self.selected_Item["Perks"].split("|"))
+            self.update_perk()
             if(self.selected_Item["Rarity"]==1):
                 self.strengthenSelect.setMaximum(0)
                 self.refinementSelect.setMaximum(0)

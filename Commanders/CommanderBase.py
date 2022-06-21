@@ -12,7 +12,7 @@ class Commander(QWidget):
         
         self.LevelLabel=QLabel("Level")
         self.LevelSelect=QSpinBox()
-        self.LevelSelect.setMinimum(0)
+        self.LevelSelect.setMinimum(1)
         self.LevelSelect.setMaximum(50)
         
         self.RespectLabel=QLabel("Respect")
@@ -35,19 +35,19 @@ class Commander(QWidget):
         self.Equipment_sort.addItems(sortable_vals)
         self.Equipment_sort.currentIndexChanged.connect(self.set_update_equipment_sorting)
         
-        self.weapon=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Weapon"])
+        self.weapon=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Weapon"],self.perk_DF)
         self.weapon.itemSelect.currentIndexChanged.connect(self.updateCommanderStats)
         self.weapon.strengthenSelect.valueChanged.connect(self.updateCommanderStats)
         
-        self.chest=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Armor"])
+        self.chest=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Armor"],self.perk_DF)
         self.chest.itemSelect.currentIndexChanged.connect(self.updateCommanderStats)
         self.chest.strengthenSelect.valueChanged.connect(self.updateCommanderStats)
         
-        self.head=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Helmet"])
+        self.head=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Helmet"],self.perk_DF)
         self.head.itemSelect.currentIndexChanged.connect(self.updateCommanderStats)
         self.head.strengthenSelect.valueChanged.connect(self.updateCommanderStats)
         
-        self.accessory=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Accessory"])
+        self.accessory=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Accessory"],self.perk_DF)
         self.accessory.itemSelect.currentIndexChanged.connect(self.updateCommanderStats)
         self.accessory.strengthenSelect.valueChanged.connect(self.updateCommanderStats)
         
@@ -67,8 +67,8 @@ class Commander(QWidget):
         l.addWidget(self.accessory,2,3)
         self.setLayout(l)
     def load_Equipment(self):
-        self.Equipment_DF=pd.read_csv("EquipmentFull.csv",index_col="Name")
-        
+        self.Equipment_DF=pd.read_csv("data/EquipmentFull.csv",index_col="Name")
+        self.perk_DF=pd.read_csv("data/EquipPerkProccessed.csv",index_col="Name")
     def get_equipment_stats(self):
         
         wm,wf,ws=self.weapon.get_stats()

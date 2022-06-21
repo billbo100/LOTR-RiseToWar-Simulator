@@ -1,0 +1,273 @@
+﻿Name,Effect,StartVal,PerRefinement
+Accelerate,[First 3 Round(s)] [Allied Commander] Has a $VAL% chance of performing an additional attack each round,15,15
+Aegis,[First 1 Round(s)] [All Allies] $VAL% chance to gain Immunity to Stun and Madness,16.66666667,16.66666667
+Alarm,[Each Round] [Commander] $VAL% chance to remove a random debuff while defending,10,10
+Amplification,[First 5 Round(s)] [Allied Commander] Focus Damage dealt +$VAL%,5,5
+An Eye for an Eye,[Round 7 Onwards] [All Allies] Damage dealt +$VAL%,5,5
+Animal Husbandry,[Each 2 Round(s)] [1 Beasts Allied Unit(s)] Damage dealt +$VAL% for 1 round(s),7.5,7.5
+Arnor Defence,[Army] Defence (Men) +6/? [Army] Speed (Men) -2/?,,
+Arrow Suppression,[First 3 Round(s)] [Against Enemy Ranged Units] Damage dealt -$VAL%,-5,-5
+Attunement,[Commander] Focus +$VAL,3,3
+Axe Throwers' Vigour,[Allied Axe Throwers' Units] Damage $VAL,-5,-5
+Balance Stone,[Commander] Normal attack damage $VAL,10,10
+Bane fo Dwarves,[Against Enemy Dwarves Units] Damage received +$VAL%,3,3
+Bane of Archers,[Against Enemy Ranged Units] Damage received +$VAL%,3,3
+Bane of Dwarves,[Against Enemy Dwarves Units] Damage received +$VAL%,3,3
+Bane of Elves,[Against Enemy Elves Units] Damage received +$VAL%,3,3
+Bane of Evil Men,[Against Enemy Evil Men Units] Damage received +$VAL%,3,3
+Bane of Giants,[Large Units] Damage received +$VAL%,3,3
+Bane of Men,[Against Enemy Men Units] Damage received +$VAL%,3,3
+Bane of Mounted Units,[Against Enemy Mounted Units] Damage received +$VAL%,3,3
+Bane of Orcs,[Against Enemy Orcs Units] Damage received +$VAL%,3,3
+Bane of Orcs,[Against Enemy Orcs Units] Damage received +$VAL%,3,3
+Bane of Soldiers,[Against Enemy Melee Units] Damage received +$VAL%,3,3
+Bane of Uruk-hai,[Against Enemy Uruk-hai Units] Damage received +$VAL%,3,3
+Barrier,[First 2 Round(s)] [All Allies] Defense +$VAL%,5,5
+Battered,[After Commander Attacks] [Against Target] 50.0% chance of next damage dealt $VAL%,-10,-10
+Beasts' Power,[Beasts Allied Unit(s)] Damage dealt +$VAL%,2,2
+Beasts' Toughness,[Beasts Allied Unit(s)] Damage received $VAL%,-1.5,-1.5
+Blaze,[After the Commander Attacks] [Against Enemy Target] Deals an additional 5.6%/34.0% Burn Damage (effect modified by Focus stat),,
+Blight,[After the Commander Performing a Normal Attack] 50.0% chance of dealing an additional 26.6%/160.0% Poison Damage (effect modified by Focus stat),26.66666667,26.66666667
+Blinding Barrier,"[Knights] Focus, Burn, and Poison damage received $VAL%",-10,-10
+Blitz,[First 4 Round(s)] [Commander and Army] +$VAL% chance of gaining Initiative,,
+Blood Rush,[Brawlers] $VAL% chance of removing one debuff,15,15
+Bowmen's Might,[Allied Bowmen's Units] Damage dealt +1.5%,1.5,1.5
+Break Defences,[After the Commander Attacks] [Against Target] Defense -1.0/-6.0. The effect lasts till the end of combat. Can stack 10 time(s),,
+Breakers' Might,[Allied Breakers' Units] Damage dealt +1.5%,1.5,1.5
+Breaker's Vigour,[Allied Breaker's Units] Damage -5.0%,-5,-5
+Bruisers' Might,[Allied Bruisers' Units] Damage dealt +1.5%,1.5,1.5
+Bruisers' Vigour,[Allied Bruisers' Units] Damage -5.0%,-5,-5
+Cavalry Suppression,[First 3 Round(s)] [Against Enemy Mounted Units] Damage dealt $VAL%,-5,-5
+Cleave,[Commander] Normal attacks have a 50.0% chance of dealing an additional $VAL% Physical Damage,40,40
+Concentration,[Each Round] [Commander] Might +$VAL (up to 5 stacks),2,2
+Concussion,[After the Commander’s Normal Attack] [Against Target] 50.0% chance of inflicting Damage -6.0%/-36.0% for 1 round(s),-6,-6
+Contemplate,[Each Round] [Commander] Focus +$VAL (up to 5 stacks),2,2
+Counterstrike,[First 2 Round(s)] [Allied Melee Units] Perform a counterattack that deals 8.3%/50.0% damage when sustaining normal attacks from enemies within range,8.333333333,8.333333333
+Courage,[First 3 Round(s)] [Allied Commander] Damage dealt +$VAL%,5,5
+Critical Care,[All Allied Units] Recover $VAL% HP once when taking damage for the first 4 time(s),10,10
+Curse,[First 2 Rounds] [Against All Enemies] Damage dealt -6.0%/-36.0%,-6,-6
+Defensive Stance,"[First 4 Round(s)] [Allied Beasts Units] Physical damage received $VAL%, all damage dealt $VAL%",-5,-5
+Defensive Tactics,"[Melee Units] Damage received $VAL%, damage dealt $VAL%",-2,-2
+Deftness,[Commander] Speed +$VAL,3,3
+Determination,[Allied Commander] [Each round] $VAL% chance to gain Madness Immunity,15,15
+Devastate,[Sappers and Breakers] Damage against Large units +$VAL%,5,5
+Discord,[First 2 Round(s)] [Against All Enemies] +$VAL% chance of afflicting Madness each round,16.66666667,16.66666667
+Disgust,[Brutes] Damage dealt to Men +$VAL%,5,5
+Dominance,[Commander] Might +5/+30,5,5
+Dominate,[After Commander Attacks] [Against Enemy Commander] 50.0% chance of reducing next damage dealt by $VAL%,10,10
+Dominion,[First 2 Round(s)] [Enemy Commander] Damage dealt -6.0%/-36.0%,-6,-6
+Double Throw,[Axe Thrower Units] 2.0%/12.0% chance of performing 2 normal attacks each round,2,2
+Dragon Slaying,[Goat Rider] Damage against Large units +$VAL%,5,5
+Dread,[Every 3 Round(s)] [Against 1 Enemy Target(s)] 8.3%/50.0% chance to inflict Stun for 1 round(s),8.333333333,8.333333333
+Dwarven Footmen's Might,[Allied Dwarven Footmen's Units] Damage dealt +1.5%,1.5,1.5
+Dwarven Footmen's Vigour,[Allied Dwarven Footmen's Units] Damage -5.0%,-5,-5
+Dwarven Training,[Army] Siege (Dwarven Footmen) +$VAL,2,2
+Dwarves Strength,[Dwarves Allied Unit(s)] Damage dealt +1.5%,1.5,1.5
+Dwarves Strength,[Dwarves Allied Unit(s)] Damage dealt +$VAL%,1.5,1.5
+Eastern Resolve,"[First 5 Round(s)] [Allied Evil Men Units] Burn, Poison, Focus damage received $VAL%",-10,-10
+Eastern Spear,[Skirmishers] Damage +$VAL% while attacking,2,2
+Elven Craftsmanship,[Army] Defence (Warden) +$VAL,2,2
+Elves Strength,[Elves Allied Unit(s)] Damage dealt +1.5%,1.5,1.5
+Elves Strength,[Elves Allied Unit(s)] Damage dealt +$VAL%,1.5,1.5
+Ents' Rage,[Army] Speed (Ents) +8/+48 [Army] Siege (Ents) +150/+900,8|150,8|150
+Ered Luin Formation,[Dwarven units] Damage dealt +$VAL% (Affected by Might),2,2
+Evil Man Overlord,[Allied Evil Men Unit(s)] Damage received -8.3%/-50.0% when affected by Stun or Madness,-8.333333333,-8.333333333
+Evil Men Stregth,[Evil Men Allied Unit(s)] Damage dealt +1.5%,1.5,1.5
+Evil Men Strength,[Evil Men Allied Unit(s)] Damage dealt +$VAL%,1.5,1.5
+Evil's Threat,"[Commanders] [Against Men, Elves and Dwarves] Damage dealt +$VAL%",2,2
+Fearless Cavalry,[First 3 Round(s)] [Allied Mounted Units] [Each Round] +$VAL% to gain Stun Immunity and +$VAL% chance to gain Madness Immunity,100/6|100/6,100/6|100/6
+Fine Horse,[Allied Mounted Units] Healing effects received +$VAL%,3,3
+Fire Protection,[All Allies] Burn Damage received $VAL%,-10,-10
+Flay,[First 4 Round(s)] [Allied Commander] Physical Damage ignores 5.0% of target’s Defence,5,5
+Flay,[First 4 Round(s)] [Allied Commander] Physical Damage ignores 5.0%/30.0% of target’s Defence,5,5
+Focus Protection,[All Allies] Focus Damage received $VAL%,-10,-10
+Forestall,[While attacking] [Allied Army] Damage received $VAL%,-1.5,-1.5
+Formation Break,[First 4 Round(s)] [This Commander] Damage against melee units +$VAL%,4,4
+Fortitude of Archers,[Allied Ranged Units] Damage received $VAL%,-1.5,-1.5
+Fortitude of Cavalry,[Allied Mounted Units] Damage received $VAL%,-1.5,-1.5
+Fortitude of Dwarves,[Dwarves Allied Unit(s)] Damage received $VAL%,-1.5,-1.5
+Fortitude of Elves,[Elves Allied Unit(s)] Damage received $VAL%,-1.5,-1.5
+Fortitude of Evil Men,[Evil Men Allied Unit(s)] Damage received $VAL%,-1.5,-1.5
+Fortitude of Men,[Men Allied Unit(s)] Damage received $VAL%,-1.5,-1.5
+Fortitude of Orcs,[Orcs Allied Unit(s)] Damage received $VAL%,-1.5,-1.5
+Fortitude of Soldiers,[Allied Melee Units] Damage received $VAL%,-1.5,-1.5
+Fortitude of Uruk-hai,[Uruk-hai Allied Unit(s)] Damage received $VAL%,-1.5,-1.5
+Frenzy,"[Every Round] [Allied Commander] Has a $VAL% chance of performing normal attacks twice, but each attack deals -8.3%/-50.0% damage",15|-50/6,15|-50/6
+Fury,[First 4 Round(s)] [Allied Commander] Physical Damage dealt +$VAL%,4,4
+Gallant,[Commander] Might +$VAL,3,3
+Giant's Power,[Army] Attack (Large Unit) +6/+36,6,6
+Gift of Nature,[Comander] Might +$VAL [Commander] Focus +$VAL [Commander] Speed +$VAL,3,3
+Grinding Assault,[Light Cavalry] Damage dealt on second attack $VAL%,10,10
+Grudge of Gundabad,[Army] Attack (Orcs) +$VAL [Army] Defence (Orcs) +6/,,
+Grunts' Might,[Allied Grunts' Units] Damage dealt +1.5%,1.5,1.5
+Grunts' Vigour,[Allied Grunts' Units] Damage -5.0%,-5,-5
+Guard,[Every 2 Round(s)] [1 Allied Unit(s)] Defence +$VAL% for 1 round(s),5,5
+Haste of Archers,[Army] Speed (Ranged) +2,2,2
+Haste of Dwarves,[Army] Speed (Dwarves) +$VAL,2,2
+,,,
+Haste of Soldiers,[Army] Speed (Melee) +$VAL,2,2
+Haste of Uruk-hai,[Army] Speed (Uruk-hai) +$VAL,2,2
+Hazard Training,[Melee Units] First 2 instance(s) of damage received $VAL%,-10,-10
+Heroism,[Commander] Damage +$VAL% [Allied Units] Damage $VAL%,3,3
+Hobbits' Health,[Allied Hobbits Units] Healing Effects received +3.3%/+20.0%,3.333333333,3.333333333
+Hobbits' Tenacity,[Army] Defence (Hobbits) $VAL,4,4
+Hold the Line,[All Allied Units] Recovery received +3.0%/+15.0% while defending,3,3
+Horsemen's Might,[Allied Horsemen's Units] Damage dealt +1.5%,1.5,1.5
+Horsemen's Vigour,[Allied Horsemen's Units] Damage -5.0%,-5,-5
+Hunter's Mark,[First 3 Round(s)] [All Allies] $VAL% chance to gain Pursuit status,15,15
+Hunters' Vigour,[Allied Hunters' Units] Damage -5.0%,-5,-5
+Husbandry,Resources gathered +$VAL%,2,2
+Hysteria,[Every 2 Round(s)] [Against 1 Enemy Target(s)] +$VAL% chance to inflict Madness for 1 round(s),16.66666667,16.66666667
+Ignition,[First 5 Round(s)] [Allied Commander] Burn Damage dealt +$VAL%,,
+Improved Husbandry,Resources gathered +$VAL%,,
+Improved Manoeuver,[Army] March Speed +$VAL%,,
+Improved Shroud,[First 1 Round(s)] [3 Allied Unit(s)] 5.0%/30.0% chance of avoiding damage,,
+Inspire,[Every 2 Round(s)] [1 Allied Unit(s)] Damage +$VAL% for 1 round(s),5,5
+Intimidation,[First 3 Round(s)] [Enemy Commander] 8.3% chance to inflict Silence each round,8.333333333,8.333333333
+Iron Guard,[Allied Melee Units] Recover 6.0%/36.0% HP each round,6,6
+Irreparable Injury,[Against All Enemies] Recovery received $VAL%,-5,-5
+Isen Elixir,[Each Round] [Uruk-hai] Recover 5.0%/30.0% HP,5,5
+Last Resort,[Round 6 Onwards] [Allied Commander] Damage dealt +$VAL%,5,5
+Last Will,[Rangers] Damage against Orcs +$VAL%,5,5
+Lethal Weapon,[Allied Commander] 25.0% chance of dealing +$VAL% Physical Damage,10,10
+Light Cavalry's Might,[Allied Light Cavalry's Units] Damage dealt +1.5%,1.5,1.5
+Lindon's Inheritance,[Elves] 25.0% chance of damage received $VAL%,-5,-5
+Lore of the Arcana - Balance,[Balance] [Commander] [Each Effect] [Each Round] 10.%/60.0% chance for the following effects to be triggered: Remove a random debuff Damage dealt +$VAL% for 1 round,10,10
+Lore of the Arcane - Leader,[Leader] [Commander] [Each Effect] [Each Round] 10.%/60.0% chance for the following effects to be triggered: Physical Damage received $VAL% Deals highest damage when attacking,10,10
+Lore of the Arcane - Strategist,[Strategist]: [Commander] [Each Effect] [Each Round] 10.%/60.0% chance for the following effects to be triggered: [Commander] Focus Damage dealt +1.5%/9.0% [Against 1 Random Target] Deals 13.3%/80.0% Focus Damage once (Effect modified by Focus stat),10,10
+Lore of the Arcane - Support,[Support] [Commander] [Each Effect] [Each Round] 10.%/60.0% chance for the following effects to be triggered: Recovery received +$VAL% Recovers 4.0%/24.0% HP once,10,10
+Lore of the Arcane - Warrior,[Warrior]: [Commander] [Each Effect] [Each Round] 10.%/60.0% chance for the following effects to be triggered: [Commander] Physical Damage dealt +$VAL% [Commander] Physical Damage ignores 5.0%/30.0% of target's Defense,10,10
+Manipulate,[Every 2 Round(s)] [Against 1 Enemy Target(s)] Damage -7.0%/-42.0% for 1 round(s),-7,-7
+Manoeuver,[Army] March Speed +$VAL%,2,2
+Manoeuver,[Commander] Speed +5/+30,5,5
+Melee Blitz,[First 1 Round(s)] [Allied Melee Units] +$VAL% chance to gain Follow Up,16.66666667,16.66666667
+Melee Might,[Allied Melee Units] Damage dealt +1.5%,1.5,1.5
+Melee Might,[Allied Melee Units] Damage dealt +$VAL%,1.5,1.5
+Melee Suppression,[First 3 Round(s)] [Against Enemy Melee Units] Damage dealt $VAL%,-5,-5
+Melee Vigour,[Allied Melee Units] Damage received -5.0%,-5,-5
+Melee Vigour,[Allied Melee Units] Damage received $VAL%,-1,-1
+Men Strength,[Men Allied Unit(s)] Damage dealt +1.5%,1.5,1.5
+Men Strength,[Men Allied Unit(s)] Damage dealt +$VAL%,1.5,1.5
+Men Vigour,[Men Allied Unit(s)] Damage received $VAL%,-1,-1
+Mend,[Every 2 Round(s)] [1 Allied Unit(s)] Recover 20.0%/120.0% HP,20,20
+Mercenaries' Might,[Allied Mercenaries' Units] Damage dealt +1.5%,1.5,1.5
+Mercenaries' Vigour,[Allied Mercenaries' Units] Damage -5.0%,-5,-5
+Might Extraction,[First 4 Round(s)] [Against Enemy Commander] Might -3.0/-18.0 [Allied Commander] Might +3.0/+18.0,-3|3,-3|3
+Might of Archers,[Allied Ranged Units] Damage dealt +$VAL%,2,2
+Might of Cavalry,[Allied Mounted Units] Damage dealt +$VAL%,2,2
+Might of Dwarves,[Dwarves Allied Unit(s)] Damage dealt +$VAL%,2,2
+Might of Elves,[Elves Allied Unit(s)] Damage dealt +$VAL%,2,2
+Might of Evil Men,[Evil Men Allied Unit(s)] Damage dealt +$VAL%,2,2
+Might of Men,[Men Allied Unit(s)] Damage dealt +$VAL%,2,2
+Might of Orcs,[Orcs Allied Unit(s)] Damage dealt +$VAL%,2,2
+Might of Soldiers,[Allied Melee Units] Damage dealt +$VAL%,2,2
+Might of Uruk-hai,[Uruk-hai Allied Unit(s)] Damage dealt +$VAL%,2,2
+Militias' Vigour,[Allied Militias' Units] Damage -1.0%,-1,-1
+Mind Split,[After the Commander Performs a Normal Attack] 50.0% chance of dealing an additional 26.6%/160.0% Focus Damage (effect modified by Focus stat),26.66666667,26.66666667
+Mindfulness,[Commander] Focus $VAL during combat (effect modified by Commander’s Speed stat),2,2
+Motivate,[After the Commander Attacks] [1 Allied Unit(s)] Damage +$VAL% for 1 round(s),2,2
+Mounted Archers' Might,[Allied Mounted Archers' Units] Damage dealt +1.5%,1.5,1.5
+Mounted Archers' Vigour,[Allied Mounted Archers' Units] Damage -5.0%,-5,-5
+Mounted Might,[Allied Mounted Units] Damage dealt +1.5%,1.5,1.5
+Mounted Might,[Allied Mounted Units] Damage dealt +$VAL%,1.5,1.5
+Mounted Superiority,[Army] Siege (Marauder) +$VAL,2,2
+Mounted Unit Supply,[Allied Mounted Units] [Each Round] Recover 6.0%/36.0% HP,6,6
+Mounted Vigour,[Allied Mounted Units] Damage received $VAL%,-1,-1
+Opportune Strike,[Each Round] [Allied Units] +$VAL% chance of causing maximum damage,16.66666667,16.66666667
+Orc Slingers' Might,[Allied Orc Slingers' Units] Damage dealt +1.5%,1.5,1.5
+Orc Slingers' Vigour,[Allied Orc Slingers' Units] Damage -5.0%,-5,-5
+Orc Strength,[Orc Allied Unit(s)] Damage dealt +1.5%,1.5,1.5
+Orcs Strength,[Orcs Allied Unit(s)] Damage dealt +$VAL%,1.5,1.5
+Overconfidence,[Army] Attack (Pirate) +1/+6 [Army] Defence (Pirate) +1/+6 [Army] Speed (Pirate) +1/+6 [Army] HP (Pirate) -1/-6,1,1
+Panic,[After the Commander Attacks] [Against Enemy Target] 8.3%/50.0% chance to inflict Madness for 1 round(s),8.333333333,8.333333333
+Pierce,[Commander] Normal attacks have a 50% chance of  dealing an additional 26.6% Physical Damage,26.66666667,26.66666667
+,,,
+Plated Armour,[Allied Unit with Highest Defense] Defense +8.0/+48.0 Effect's initial value reduces by 1/8 each time damage is sustained,8,8
+Poison,[Allied Commander] Poison Damage dealt +$VAL%,2,2
+Poison Coating,[First 5 Round(s)] [Allied Commander] Poison dealt +$VAL%,5,5
+Poison Protection,[All Allies] Poison Damage received $VAL%,-10,-10
+Power of Immortality,[Undead Allied Unit(s)] Damage dealt +$VAL%,2,2
+Ranged Might,[Allied Ranged Units] Damage dealt +1.5%,1.5,1.5
+Ranged Might,[Allied Ranged Units] Damage dealt +$VAL%,1.5,1.5
+Ranged Vigour,[Allied Ranged Units] Damage -5.0%,-5,-5
+Ranged Vigour,[Allied Ranged Units] Damage received $VAL%,-1,-1
+Rear Reinforcement,[Allied Ranged Units] Recover 6.0%/36.0% HP each round,6,6
+Reckoning,[Every 5 Round(s)] [Against Target with the Lowest Defence] Deals 100.0%/600.0% Physical Damage,100,100
+Relief,[Allied Commander] Focus Damage dealt +$VAL%,2,2
+Rend,[Allied Army] Physical Damage ignores $VAL% of target’s Defence,3,3
+Resilience of Archers,[Army] Defence (Ranged) $VAL,4,4
+Resilience of Dwarves,[Army] Defence (Dwarves) $VAL,4,4
+Resilience of Elves,[Army] Defence (Elves) $VAL,4,4
+Resilience of Evil Men,[Army] Defence (Evil Men) $VAL,4,4
+Resilience of Men,[Army] Defence (Men) $VAL,4,4
+Resilience of Soldiers,[Army] Defence (Melee) $VAL,4,4
+Resilience of Trolls,[Army] Defence (Trolls) $VAL,4,4
+Resilience of Uruk-hai,[Army] Defence (Uruk-hai) $VAL,4,4
+Resistance,"[All Allies] Burn, Poison and Focus Damage received $VAL%",-5,-5
+Resolve,[First 3 Round(s)] [All Allies] +$VAL% chance to gain Madness Immunity,16.66666667,16.66666667
+Resolve of Dwarves,[Each Round] [Dwarven Units] $VAL% chance of gaining Stun Immunity,50,10
+Resolve of Elves,[Each Round] [Elven Units] $VAL% chance of gaining Stun Immunity,50,10
+Resolve of Men,[Each Round] [Men Units] $VAL% chance of gaining Stun Immunity,50,10
+Resolve of Uruk-hai,[Each Round] [Uruk-hai Units] $VAL% chance of gaining Stun Immunity,50,10
+Resurrection,[1 Allied Target] [Each Round] Recovers $VAL% HP once when your army is comprised of only Undead Units. Unaffected by HP recovery debuffs,10,10
+Retaliate,"[Allied Melee Units] When hit by enemies’ normal attacks within range, perform a Counterattack that deals 35.0%/60.0% damage. However, your Normal attack damage will be reduced by 70.0%",35,35
+Riders' Rush,[Army] Speed (Mounted Unit) +$VAL,3,3
+Scorch,[Allied Commander] Burn Damage dealt +$VAL%,2,2
+Scorch,[Commander] Normal attacks have a 50.0% chance of dealing an additional 26.6%/160.0% Burn Damage,26.66666667,26.66666667
+Scouts' Might,[Allied Scouts' Units] Damage dealt +1.5%,1.5,1.5
+Scouts's Vigour,[Allied Scouts' Units] Damage -5.0%,-5,-5
+Second Wind,[Round 4] [All Allies] Remove all debuffs and recover 11.6%/70.0% HP (effect modified by Focus stat),11.66666667,11.66666667
+Serenity,[While defending] [Allied Units] Damage Received $VAL%,-1.5,-1.5
+Shadow Minion,[Stalkers] 2.0%/12.0% chance of avoiding damage,2,2
+Sharp Point,[Allied Commander] Physical Damage ignores 5.0%/30.0% of target’s Defence,5,5
+Sharpshooter,[Marksman Units] 50.0% chance gaining Damage +$VAL% each round,5,5
+Shatter,[After the Commander’s Normal Attack] [Against Target] 50.0% chance of inflicting Defence -5.0% for 1 round(s),-5,-5
+Shatter,[After the Commander’s Normal Attack] [Against Target] 50.0% chance of inflicting Defence $VAL% for 1 round(s),-5,-5
+Shock,[First 1 round(s) of battle] [All Enemies] $VAL% chance to inflict Stun each round,10,10
+Shroud,[3 Allied Unit(s)] $VAL% chance of avoiding the first instance of damage,10,10
+Siege of Dwarves,[Army] Siege (Dwarves) +$VAL,2,2
+Siege of Elves,[Army] Siege (Elves) +$VAL,2,2
+Siege of Evil Men,[Army] Siege (Evil Men) +$VAL,2,2
+Siege of Uruk-hai,[Army] Siege (Uruk-hai) +$VAL,3,3
+Significant Protection,[Allied Units(s) with the Lowest Defense] Defense +5.0/+30.0,5,5
+Skimishers' Vigour,[Allied Skirmishers' Units] Damage dealt +1.5%,1.5,1.5
+Skirmishers' Vigour,[Allied Skirmishers' Units] Damage -5.0%,-5,-5
+Smite,[After the Commander Attacks] [Against Enemy Target] Deals an additional 5.6%/34.0% Focus Damage (effect modified by Focus stat),,
+Southern Leader,[Commaner] Physical Damage dealt +1.0%/+6.0% for each allied Evil Men unit type present,1,1
+Specialist,"[Commander] Skill Damage +2.5%/+15.0%, normal attack damage 2.5%/-15.0%",2.5|-2.5,2.5|-2.5
+Spiked Armor,[Army] Speed (Cave Troll) +$VAL,3,3
+Spirit of Adventure,[Allied Unit(s)] Defence +4.0/+24.0 while attacking,4,4
+Spirits Awaken,"[Allied Undead Units] Focus damage received -8.3%/-50.0%, Burn, Poison damage received +8.3%/+50.0%",-50/6|50/6,-50/6|50/6
+Strength from Dexterity,[Commander] Might +2.0/12.0 during combat (effect modified by Commander’s Speed stat),2,2
+Strip Armour,[After the Commander’s Normal Attack] [Against Target] 50.0% chance of inflicting Defence -8.3%/-50.0% for 1 round(s),-8.333333333,-8.333333333
+Sustain,[Every 2 Round(s)] [All Allies] Recover 6.3%/38.0% HP (effect modified by Focus stat),6.333333333,6.333333333
+Tactical Manoeuvers,[First 3 Round(s)] [Allied Units] Damage received $VAL%,-3,-3
+Tactical Mark,[First 3 Round(s)] [All Allies] Gain Pursuit and 5.0%/30.0% chance of causing maximum damage each round,5,5
+Tactical Retreat,[Round 6 Onwards] [Allied Units] Damage received $VAL%,-5,-5
+Tame,[Each Round] [Trackers] $VAL% chance of gaining Madness Immune,15,15
+Tenacity,[First 2 Round(s)] [Allied Commander] +$VAL% chance to gain Silence Immunity each round,16.66666667,16.66666667
+Terror,[First 1 Round(s)] [Enemy Commander] $VAL% chance to inflict Stun each round,10,10
+The Pathbreaker,[Commander] Might +6.0/+16.0 and Focus +6.0/+16.0 while attacking,6,6
+Thrill of the Hunt,[Cavalry Archer] Damage +2.0%/12.0% while attacking,2,2
+Toxin,[Each 5 Round(s)] [Against Target with the Highest Defense] Deals 80.0%480% Poison Damage (Effect modified by Focus stat),80,80
+Tranquility,[Every 3 Round(s)] [All Allied Units] Remove one random debuff [3 Allied Unit(s)] Recover 5.0%/30.0% HP,5,5
+Trauma,[After the Commander Attacks] [Against Enemy Target] 5.0%/30.0% chance to inflict Stun for 1 round(s),5,5
+Trolls' Command,[Each 2 Round(s)] [1 Troll(s)] Damage dealt +7.5%/+45.0% for 1 round(s),7.5,7.5
+Undying Toughness,[Undead Allied Unit(s)] Damage received $VAL%,-1.5,-1.5
+Unity,[Commander] Focus +5/+30,5,5
+Unwavering,[Allied Commander] $VAL% chance to gain Stun Immunity each round,15,15
+Upright,[Spearmen] First damage received $VAL%,-10,-10
+Uruk Pride,[Army] Speed (Uruk Archer) +$VAL,3,3
+Uruk-hai Armor,[Allied Uruk-hai Unit(s)] Speed -20.0 and Physical Damage received $VAL%,-2,-2
+Uruk-hai Strength,[Uruk-hai Allied Unit(s)] Damage dealt +1.5%,1.5,1.5
+Uruk-hai Strength,[Uruk-hai Allied Unit(s)] Damage dealt +$VAL%,1.5,1.5
+Uruk-hai Vigour,[Allied Commander] Burn Damage dealt +$VAL%,2,2
+Uruk-hai's Command,[Each 2 Round(s)] [2 Uruk-hai Allied Unit(s)] Damage dealt +9.0%/+45.0% for 1 round(s),9,9
+Venom,[After the Commander Attacks] [Against Enemy Target] Deals an additional 5.6%/34.0% Poison Damage (effect modified by Focus stat),,
+Venom?,[Commander] Normal attacks have a 50% chance of  dealing an additional 26.6% Poison Damage (effect modified by Focus Stat),,
+Vulnerability,[First 2 Round(s)] [Against All Enemies] Defence -5.8%/-35.0%,-5.833333333,-5.833333333
+War Cry,[First 2 Round(s)] [All Allies] Damage dealt +$VAL%,3,3
+Warding,[First 2 Round(s)] [All Allies] +$VAL% chance to gain Stun Immunity each round,16.66666667,16.66666667
+Winderland Threats,[Evil Men] Damage to Elves and Dwarves +$VAL%,4,4
+Woodland Protection,[Round 5 and on] [Beast Units] 50.0% chance each round for Stun and Madness Immunity,50,50
+Wound Treatment,[All Allied Units] Recovery received +$VAL%,2,2

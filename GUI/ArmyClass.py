@@ -8,7 +8,7 @@ from PySide2.QtWidgets import QWidget, QComboBox, QSpinBox, QGridLayout, QLabel,
 import pandas as pd
 from Commanders.CommanderBase import Commander
 from PySide2.QtCore import Qt
-from PySide2.QtGui import QBrush, QColor
+from PySide2.QtGui import QColor
 class Army(QFrame):
     def __init__(self,title):
         QFrame.__init__(self)
@@ -39,7 +39,7 @@ class Army(QFrame):
         self.setLayout(l)
         
     def load_Commander_Data(self):
-        self.commander_DF=pd.read_csv("Commanders.csv",index_col="Commander")
+        self.commander_DF=pd.read_csv("data/Commanders.csv",index_col="Commander")
 
 
     def updateCommander(self):
