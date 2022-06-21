@@ -28,6 +28,9 @@ all_races=list(all_races)
 all_bonuses=list(all_bonuses)
 
 all_races.sort()
+print(all_races)
+
 all_bonuses.sort()
-columns=['Name','Rarity','CommanderMight','CommanderFocus','CommanderSpeed']+all_races+all_bonuses
+print(all_bonuses)
+columns=['Name','Rarity',"EquipmentType",'CommanderMight','CommanderFocus','CommanderSpeed']+all_races+all_bonuses
 df.to_csv("EquipmentFull.csv",columns=columns,index=False)

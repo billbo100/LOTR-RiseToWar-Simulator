@@ -5,6 +5,7 @@ Created on Jun 19, 2022
 '''
 from PySide2.QtWidgets import QWidget, QComboBox, QSpinBox, QGridLayout, QLabel
 import pandas as pd
+from Equipment.Equipment import EquipmentBase
 class Commander(QWidget):
     def __init__(self):
         QWidget.__init__(self)
@@ -26,6 +27,13 @@ class Commander(QWidget):
         self.LevelSelect.valueChanged.connect(self.updateCommanderStats)
         self.LevelSelect.valueChanged.connect(self.calculateSkillPoints)
         self.RespectSelect.valueChanged.connect(self.calculateSkillPoints)
+        self.load_Equipment()
+        self.weapon=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Weapon"])
+        self.chest=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Armor"])
+        self.head=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Helmet"])
+        self.accessory=EquipmentBase(self.Equipment_DF[self.Equipment_DF["EquipmentType"]=="Accessory"])
+        
+        
         l=QGridLayout()
         l.addWidget(self.LevelLabel,0,0)
         l.addWidget(self.RespectLabel,0,2)
@@ -34,11 +42,21 @@ class Commander(QWidget):
         l.addWidget(self.CommanderMight,1,0)
         l.addWidget(self.CommanderFocus,1,1)
         l.addWidget(self.CommanderSpeed,1,2)
+        l.addWidget(self.weapon,2,0)
+        l.addWidget(self.chest,2,1)
+        l.addWidget(self.head,2,2)
+        l.addWidget(self.accessory,2,3)
         self.setLayout(l)
-        
+    def load_Equipment(self):
+        self.Equipment_DF=pd.read_csv("EquipmentFull.csv",index_col="Name")
+        print(self.Equipment_DF)
     def set_commander(self,commander):
         self.Commander=commander
         self.updateCommanderStats()
+        self.weapon.set_commander_restrictions(commander['Race'])
+        self.chest.set_commander_restrictions(commander['Race'])
+        self.head.set_commander_restrictions(commander['Race'])
+        self.accessory.set_commander_restrictions(commander['Race'])
     def updateCommanderStats(self):
         Might=self.calculateMight()
         Focus=self.calculateFocus()
