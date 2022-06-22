@@ -31,11 +31,10 @@ class Army(QFrame):
             else:
                 color=QColor(255,144,144)
             self.CommanderSelect.model().item(i).setBackground(color)
-            # print(self.CommanderSelect.model().item(i).background())
         l=QGridLayout()
         l.addWidget(self.Title,0,0)
-        l.addWidget(self.CommanderSelect,1,0)
-        l.addWidget(self.CommanderWidget,2,0)
+        l.addWidget(self.CommanderSelect,1,0,1,1)
+        l.addWidget(self.CommanderWidget,2,0,1,3)
         self.setLayout(l)
         
     def load_Commander_Data(self):

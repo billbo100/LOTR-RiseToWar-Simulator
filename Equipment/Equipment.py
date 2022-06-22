@@ -10,6 +10,7 @@ import numpy as np
 from fractions import Fraction
 from string import Template
 from textwrap import TextWrapper
+import pandas as pd
 class EquipmentBase(QWidget):
 
     def __init__(self,equip_df,perk_df):
@@ -68,21 +69,21 @@ class EquipmentBase(QWidget):
         self.perkSelect.clear()
         if(self.itemSelect.currentText()!='' and self.itemSelect.currentIndex()!=0):
             self.selected_Item=self.partial_df.loc[self.itemSelect.currentText().split('(')[0].strip()]
-            
-            self.perkSelect.addItems(self.selected_Item["Perks"].split("|"))
-            self.update_perk()
-            if(self.selected_Item["Rarity"]==1):
-                self.strengthenSelect.setMaximum(0)
-                self.refinementSelect.setMaximum(0)
-            elif(self.selected_Item["Rarity"]==2):
-                self.strengthenSelect.setMaximum(4)
-                self.refinementSelect.setMaximum(0)
-            elif(self.selected_Item["Rarity"]==3):
-                self.strengthenSelect.setMaximum(5)
-                self.refinementSelect.setMaximum(self.strengthenSelect.value())
-            else:
-                self.strengthenSelect.setMaximum(5)
-                self.refinementSelect.setMaximum(self.strengthenSelect.value())
+            if(self.selected_Item["Perks"]!="0"):
+                self.perkSelect.addItems(self.selected_Item["Perks"].split("|"))
+                self.update_perk()
+                if(self.selected_Item["Rarity"]==1):
+                    self.strengthenSelect.setMaximum(0)
+                    self.refinementSelect.setMaximum(0)
+                elif(self.selected_Item["Rarity"]==2):
+                    self.strengthenSelect.setMaximum(4)
+                    self.refinementSelect.setMaximum(0)
+                elif(self.selected_Item["Rarity"]==3):
+                    self.strengthenSelect.setMaximum(5)
+                    self.refinementSelect.setMaximum(self.strengthenSelect.value())
+                else:
+                    self.strengthenSelect.setMaximum(5)
+                    self.refinementSelect.setMaximum(self.strengthenSelect.value())
         else:
             self.selected_Item=[]
             self.strengthenSelect.setMaximum(0)
@@ -97,8 +98,19 @@ class EquipmentBase(QWidget):
     def update_Equipment_Combobox(self,sort_val):
         current_item=self.itemSelect.currentText().split('(')[0].strip()
         self.itemSelect.clear()
-        vals=self.partial_df.sort_values([sort_val,"Rarity","Name"],ascending=[False,False,True])
-        vals=["%s (%s)"%(i,v[sort_val]) for i,v in vals.iterrows()]
+        # print(sort_val)
+        vals=[]
+        if("(" in sort_val) and (not "ALL" in sort_val) : 
+            sort_parts=sort_val.split('(')
+            st=sort_parts[0].strip()
+            st_ALL=st+"(ALL)"
+            self.partial_df.insert(len(self.partial_df.keys()),"SUM",self.partial_df[st_ALL]+self.partial_df[sort_val])
+            vals=self.partial_df.sort_values(["SUM","Rarity","Name"],ascending=[False,False,True])
+            vals=["%s (%s)"%(i,v["SUM"]) for i,v in vals.iterrows()]
+          
+        else:
+            vals=self.partial_df.sort_values([sort_val,"Rarity","Name"],ascending=[False,False,True])
+            vals=["%s (%s)"%(i,v[sort_val]) for i,v in vals.iterrows()]
         self.itemSelect.addItems(["None"]+vals)
         found=False
         for i in range(self.itemSelect.count()):

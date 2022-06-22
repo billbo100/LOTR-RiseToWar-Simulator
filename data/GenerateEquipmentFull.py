@@ -6,12 +6,14 @@ Created on Jun 19, 2022
 import pandas as pd
 import numpy as np
 
-df=pd.read_csv("Equipment.csv")
-df.dropna(inplace=True)
+df=pd.read_csv("Equipment.csv",dtype=str)
+df.dropna(inplace=True,how="all")
 print(df)
 all_races=set()
 all_bonuses=set()
 for i,l in df.iterrows():
+    if("?" in l["Name"]):
+        continue
     races=l.RequiredRaces.split('|')
     all_races=all_races.union(set(races))
     for r in races:
