@@ -1,42 +1,87 @@
-﻿Unit,Side,Race,Tier,UnitsPerCommand,AttackType,MinDamage,MaxDamage,HP,Defense,Speed,Siege,WoodCost,IronCost,FoodCost,GoldCost,ConscriptionTime(Mins),Mounted,LargeUnit,Neutral Camp,FactionSpecific
-Horseback Archer,Good,Elves,1,50,Ranged,21,23,56,16,127,12,2700,1500,3300,0,20,1,0,,
-Orc Archer,Evil,Orcs,1,100,Ranged,10,15,22,12,88,7,1200,800,1800,0,10,0,0,,
-Hobbit Slinger,Good,Hobbit,1,100,Ranged,14,15,14,6,92,14,1900,1800,1900,300,15,0,0,,
-Axe Thrower,Good,Dwarves,1,100,Ranged,5,17,22,15,77,8,1700,1800,2100,0,15,0,0,,
-Hunter,Good,Elves,1,100,Ranged,15,16,18,5,86,7,2100,1700,1800,0,15,0,0,,
-Bowman,Good,Men,1,100,Ranged,9,15,20,9,80,6,2100,1400,2100,0,15,0,0,,
-Mercenary,Evil,Evil Men,1,50,Melee,17,24,63,17,138,19,700,2900,3900,0,20,1,0,,
-Scout,Evil,Orcs,1,50,Melee,16,21,52,16,138,15,1200,1800,2600,0,15,1,0,,
-Horseman,Good,Men,1,50,Melee,15,23,65,30,132,20,1400,2700,3400,0,20,1,0,,
-Light Cavalry,Good,Men,1,50,Melee,18,25,62,15,139,15,1800,2100,3600,0,20,1,0,,
-Skirmisher,Evil,Evil Men,1,100,Melee,9,12,24,19,85,15,1400,1800,2400,0,15,0,0,,
-Bruiser,Evil,Uruk-hai,1,100,Melee,10,13,25,10,92,8,1100,2100,2400,0,15,0,0,,
-Grunt,Evil,Orcs,1,100,Melee,5,16,24,22,82,17,1000,1200,1600,0,10,0,0,,
-Dwarven Footman,Good,Dwarves,1,100,Melee,8,11,26,18,86,18,1100,2100,2400,0,15,0,0,,
-Militia,Good,Men,1,100,Melee,8,13,24,24,89,16,1400,1800,2400,0,15,0,0,,
-Cavalry Archer,Good,Elves,2,50,Ranged,32,36,68,22,127,14,4050,2600,4550,0,30,1,0,,
-Uruk Archer,Evil,Uruk-hai,2,100,Ranged,14,16,30,10,72,12,1400,2500,3600,0,20,0,0,,
-Orc Crosbowman,Evil,Orcs,2,100,Ranged,7,15,26,13,76,8,2200,1000,2400,0,15,0,0,,
-Hobbit Archer,Good,Hobbit,2,100,Ranged,11,15,25,8,112,7,1500,1300,2800,900,15,0,0,,
-Heavy Axe Thrower,Good,Dwarves,2,100,Ranged,7,24,28,25,68,12,2300,2500,2700,0,20,0,0,,
-Marksman,Good,Elves,2,100,Ranged,23,24,24,9,79,10,2900,2300,2300,0,20,0,0,,
-Longbowman,Good,Men,2,100,Ranged,12,20,26,13,72,9,2700,1900,2900,0,20,0,0,,
-Spider,UNAVAILABLE,Beast,2,200,Melee,9,10,8,5,34,3,3800,1800,1800,1200,20,0,0,,
-Bat,UNAVAILABLE,Beast,2,200,Melee,7,8,10,4,275,2,3000,2800,1600,1200,20,0,0,,
-Warg,UNAVAILABLE,Beast,2,100,Melee,10,16,36,16,210,20,1600,1100,2900,900,15,0,0,,
-Marauder,Evil,Evil Men,2,50,Melee,25,32,80,30,118,20,1050,4350,5800,0,30,1,0,,
-Tracker,Evil,Orcs,2,50,Melee,26,32,68,26,135,16,1750,3300,4300,0,25,1,0,,
-Goat Rider,Good,Dwarves,2,50,Melee,24,28,82,33,96,23,1400,3100,4850,0,25,1,0,,
-Knight,Good,Men,2,50,Melee,22,30,82,37,122,22,2050,4350,4800,0,30,1,0,,
-Outrider,Good,Men,2,50,Melee,26,37,76,20,139,19,2600,3400,5200,0,30,1,0,,
-Pikeman,Evil,Evil Men,2,100,Melee,14,17,30,36,75,16,1800,2500,3200,0,20,0,0,,
-Pirate,Evil,Evil Men,2,100,Melee,12,19,34,16,88,15,2900,2500,4000,0,25,0,0,,
-Cave Troll,Evil,Trolls,2,4,Melee,300,380,1000,56,49,450,1720,1760,7800,0,30,0,1,,
-Brawler,Evil,Uruk-hai,2,100,Melee,15,17,32,14,84,12,1600,2700,3200,0,20,0,0,,
-Sapper,Evil,Uruk-hai,2,100,Melee,4,13,28,15,72,25,2400,1800,3300,0,20,0,0,,
-Brute,Evil,Orcs,2,100,Melee,10,16,30,44,69,18,1600,1800,2200,0,15,0,0,,
-Stalker,Evil,Orcs,2,100,Melee,12,23,28,16,82,15,2000,1400,2200,0,15,0,0,,
-Shieldbearer,Good,Dwarves,2,100,Melee,6,18,36,60,70,19,1400,2900,3200,0,20,0,0,,
-Warden,Good,Elves,2,100,Melee,12,24,28,50,80,15,2300,2500,2700,0,20,0,0,,
-Spearman,Good,Men,2,100,Melee,11,15,32,51,65,17,1900,2400,3200,0,20,0,0,,
-Ranger,Good,Men,2,100,Melee,14,20,30,29,100,12,2500,2900,4000,0,25,0,0,,
+﻿Name,Building,Tier,Race,AttackType,UnitType,UnitsPerCommand,MinDmg,MaxDmg,HP,Defense,Speed,Siege
+Alchemist,Breaker Lair,3,Uruk-hai,Melee,Infantry,100,4,14,30,16,66,30
+Axe Thrower,Axe Thrower Training Grounds,1,Dwarves,Ranged,Infantry,100,1,21,22,15,77,8
+Barrow-wight,Barrow-wight Lair,3,Undead,Melee,Beast,100,13,15,38,41,41,11
+Bat,,1,Beasts,Melee,Beast,200,7,8,10,4,275,2
+Beornings,Beorning Camp,3,Beasts,Melee,Beast/Large Unit,4,350,420,1000,75,62,600
+Berserker,Bruiser Lair,3,Uruk-hai,Melee,Infantry,100,19,23,40,18,75,16
+Bow Knight,Horseback Archer Stable,3,Elves,Ranged,MountedUnit,50,36,42,78,31,127,16
+Bowman,Bowman Range,1,Men,Ranged,Infantry,100,9,15,20,9,80,6
+Brawler,Bruiser Lair,2,Uruk-hai,Melee,Infantry,100,15,17,32,14,84,12
+Breaker,Breaker Lair,1,Uruk-hai,Melee,Infantry,100,1,15,26,14,79,20
+Bree Rider,Bree Rider Outpost,3,Men,Melee,MountedUnit,50,35,40,90,32,121,20
+Bruiser,Bruiser Lair,1,Uruk-hai,Melee,Infantry,100,10,13,25,10,92,8
+Brute,Grunt Lair,2,Orcs,Melee,Infantry,100,10,16,30,44,69,18
+Cataphract,Horseman Stable,3,Men,Melee,MountedUnit,50,26,35,94,61,110,23
+Cavalier,Light MountedUnit Stable,3,Men,Melee,MountedUnit,50,34,42,82,34,139,22
+MountedUnit Archer,Horseback Archer Stable,2,Elves,Ranged,MountedUnit,50,32,36,68,22,127,14
+Cave Troll,Cave Troll Lair,2,Trolls,Melee,Large Unit,4,300,380,1000,56,49,450
+Champion,,4,Evil Men,Melee,MountedUnit,50,35,38,90,50,145,20
+Corsair,Pirate Yurt,3,Evil Men,Melee,Infantry,100,13,24,36,31,88,21
+Crusher,Grunt Lair,3,Orcs,Melee,Infantry,100,13,16,36,66,55,19
+Dragoon,Mercenary Yurt,3,Evil Men,Melee,MountedUnit,50,32,38,88,52,122,21
+Dúnedain,Ranger Training Ground,3,Men,Melee,Infantry,100,15,22,36,44,122,15
+Dunlending Warrior,Dunlending Village,3,Evil Men,Melee,Infantry,100,12,22,38,26,95,15
+Dwarven Footman,Dwarven Footman Training Ground,1,Dwarves,Melee,Infantry,100,8,11,26,18,86,18
+Eagles,Eyrie,4,Beasts,Melee,Beast,5,200,300,900,29,300,45
+Ents,Entmoot,4,Ent,Melee,Ent,2,600,700,2400,205,15,900
+Fallen,,4,Evil Men,Melee,MountedUnit,50,30,40,92,55,134,24
+Fellbeast,Mountainous Lair,4,Beasts,Melee,Large Unit,5,150,300,840,44,250,50
+Goat Rider,Goat Rider Stable,2,Dwarves,Melee,MountedUnit,50,24,28,82,33,96,23
+Great Beast,Great Beast Pen,3,Beasts,Melee,Beast/Large Unit,4,325,350,1150,55,48,500
+Grunt,Grunt Lair,1,Orcs,Melee,Infantry,100,5,16,24,22,82,17
+Guard of the Tower,Militia Training Grounds,3,Men,Melee,Infantry,100,12,15,40,78,59,18
+Guardian,Dwarven Footman,3,Dwarves,Melee,Infantry,100,7,20,40,101,52,20
+Halberdier,Skirmisher Yurt,3,Evil Men,Melee,Infantry,100,17,19,35,45,65,17
+Heavy Axe Thrower,Axe Thrower Training Grounds,2,Dwarves,Ranged,Infantry,100,3,28,28,25,68,12
+Herald,Warden Training Ground,3,Elves,Melee,Infantry,100,15,26,36,71,60,18
+Hobbit Archer,Hobbit Hunter Outpost,2,Hobbit,Ranged,Infantry,100,11,15,25,8,112,7
+Hobbit Slinger,Hobbit Camp,1,Hobbit,Ranged,Infantry,100,14,15,14,6,92,14
+Horseback Archer,Horseback Archer Stable,1,Elves,Ranged,MountedUnit,50,21,23,59,16,127,12
+Horseman,Horseman Stable,1,Men,Melee,Infantry,50,15,23,65,30,132,20
+Hunter,Hunter Range,1,Elves,Ranged,Infantry,100,15,16,8,5,86,7
+Huorn,,4,Ent,Melee,Ent,1,850,900,80000,320,5,2200
+Iron Warrior,Iron Warrior Training Grounds,4,Dwarves,Melee,Infantry,50,30,34,84,116,49,42
+Keeper,Keeper Camp,3,Elves,Melee,Infantry,100,20,25,25,24,105,5
+Knight,Horseman Stable,2,Men,Melee,MountedUnit,50,22,30,82,37,122,22
+Light MountedUnit,Light MountedUnit Stable,1,Men,Melee,MountedUnit,50,18,25,62,15,139,15
+Longbowman,Bowman Range,2,Men,Ranged,Infantry,100,12,20,26,13,72,9
+Marauder,Mercenary Yurt,2,Evil Men,Melee,MountedUnit,50,25,32,80,30,118,20
+Marchwarden,,4,Elves,Ranged,Infantry,50,59,60,66,41,99,17
+Marksman,Hunter Range,2,Elves,Ranged,Infantry,100,23,24,9,79,10,10
+Marshal,,4,Men,Melee,MountedUnit,50,34,40,90,43,157,25
+Master Thrower,Axe Thrower Training Grounds,3,Dwarves,Ranged,Infantry,100,9,29,32,32,55,16
+Mercenary,Mercenary Yurt,1,Evil Men,Melee,MountedUnit,50,17,24,63,17,138,19
+Militia,Militia Training Grounds,1,Men,Melee,Infantry,100,8,13,24,24,89,16
+Morgul Arbalest,Orc Slinger Camp,3,Orcs,Ranged,Infantry,100,8,15,32,22,66,10
+Mountain troll,Cave Troll Lair,3,Trolls,Melee,Large Unit,4,350,400,1200,66,42,500
+Mumakils,Mumakil Camp,4,Beasts,Melee,MountedUnit/Large Unit,1,1200,1500,8000,100,83,4000
+Ñoldor Longshot,Ñoldor Archer Camp,4,Elves,Ranged,Infantry,50,55,56,60,35,69,16
+Oathbreaker,Caves of the Dead,3,Undead,Melee,Infantry,100,16,17,20,22,92,15
+Orc Archer,Orc Slinger Camp,1,Orcs,Ranged,Infantry,100,10,15,12,12,88,7
+Orc Crossbowman,Orc Slinger Camp,2,Orcs,Ranged,Infantry,100,7,15,26,13,76,8
+Outrider,Light MountedUnit Stable,2,Men,Melee,MountedUnit,50,26,37,76,20,139,19
+Pikeman,Skirmisher Yurt,2,Evil Men,Melee,Infantry,100,14,17,30,36,75,16
+Pirate,Pirate Yurt,2,Evil Men,Melee,Infantry,100,12,19,34,16,88,15
+Raider,Scout Lair,3,Orcs,Melee,MountedUnit,50,34,40,86,33,133,17
+Ram Rider,Goat Rider Stable,3,Dwarves,Melee,MountedUnit,50,28,32,90,40,102,27
+Ranger,Ranger Training Ground,2,Men,Melee,Infantry,100,14,20,30,29,100,12
+Ranger of North,,4,Men,Ranged,Infantry,50,35,38,86,49,100,15
+Ravager,,4,Trolls,Melee,Large Unit,4,400,420,1300,76,40,620
+Reaper,Stalker Lair,3,Orcs,Melee,Infantry,100,15,23,34,30,76,18
+Sapper,Breaker Lair,2,Uruk-hai,Melee,Infantry,100,1,16,28,15,72,25
+Scout,Scout Lair,1,Orcs,Melee,MountedUnit,50,16,21,52,16,138,15
+Seafarer,Seafarer Camp,3,Men,Melee,Infantry,100,18,21,33,35,85,13
+Sentinel,Hunter Range,3,Elves,Ranged,Infantry,100,26,27,28,14,71,12
+Sharpshooter,Bowman Range,3,Men,Ranged,Infantry,100,16,25,32,19,64,11
+Shieldbearer,Dwarven Footman,2,Dwarves,Melee,Infantry,100,6,18,36,60,70,19
+Snaga Thrak,,4,Uruk-hai,Melee,Infantry,50,6,66,72,37,80,25
+Sniper,Uruk Archer Camp,3,Uruk-hai,Ranged,Infantry,100,12,23,32,19,65,15
+Spearmen,Militia Training Grounds,2,Men,Melee,Infantry,100,11,15,32,51,65,17
+Spider,,1,Beasts,Melee,Beast,200,9,10,8,5,34,3
+Stalker,Stalker Lair,2,Orcs,Melee,Infantry,100,12,23,28,16,82,15
+Swan Knight,,4,Men,Melee,MountedUnit,50,27,34,98,66,128,28
+Tracker,Scout Lair,2,Orcs,Melee,MountedUnit,50,26,32,68,26,135,16
+Uruk Archer,Uruk Archer Camp,2,Uruk-hai,Ranged,Infantry,100,12,16,30,10,72,12
+Vanguard,Vanguard Camp,4,Evil Men,Melee,Infantry,50,35,40,85,78,65,28
+War Chariot,,4,Evil Men,Melee,MountedUnit,20,45,60,260,70,95,83

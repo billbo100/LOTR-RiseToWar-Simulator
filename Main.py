@@ -4,11 +4,13 @@ from PySide2.QtCore import Qt
 import sys
 from GUI.ArmyClass import Army
 import pandas as pd
+from PySide2.QtGui import QFont
 class BattleSim(QMainWindow):
     def __init__(self):
         QMainWindow.__init__(self)
         self.mainWidget=QWidget()
-        
+        self.font=QFont("Arial",16)
+        self.setFont(self.font)
         self.setCentralWidget(self.mainWidget)
         
         self.Attacker=Army("Attacking Army")

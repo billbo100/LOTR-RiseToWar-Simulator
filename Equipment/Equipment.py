@@ -5,7 +5,7 @@ Created on Jun 20, 2022
 '''
 from PySide2.QtWidgets import QWidget, QComboBox, QGridLayout, QLabel, QSpinBox
 from math import floor
-from PySide2.QtGui import QColor
+from PySide2.QtGui import QColor, QFont
 import numpy as np
 from fractions import Fraction
 from string import Template
@@ -20,6 +20,7 @@ class EquipmentBase(QWidget):
         self.itemSelect=QComboBox()
         self.itemSelect.setStyleSheet('selection-background-color: rgba(0,0,0,0)')
         self.itemSelect.setStyleSheet('QComboBox{selection-border-color: rgb(0,0,0);}')
+        self.itemSelect.setFont(QFont("Arial",16)) 
         self.selected_Item=[]
         self.refinement_label=QLabel("Refinement")
         self.strengthen_label=QLabel("Strengthen")
@@ -33,7 +34,7 @@ class EquipmentBase(QWidget):
         self.level_chart=[1,1.3,1.6,2,2.5,3]
         self.itemSelect.currentIndexChanged.connect(self.update_item)
         self.strengthenSelect.valueChanged.connect(self.update_strengthen)
-        self.wrapper=TextWrapper(50)
+        self.wrapper=TextWrapper(35)
         self.refinementSelect.valueChanged.connect(self.update_perk)
         l=QGridLayout()
         l.addWidget(self.itemSelect,0,0,1,-1)
@@ -56,7 +57,7 @@ class EquipmentBase(QWidget):
             perk=self.perk_df.loc[name]
             eff=perk["Effect"]
             if("$VAL") in eff:
-                start_vs=[float(Fraction(sv)) for sv in np.array(perk["StartVal"].split("|"))]
+                start_vs=[float(Fraction(sv)) for sv in np.array(str(perk["StartVal"]).split("|"))]
                 
                 per_vals=np.array([float(Fraction(pv)) for pv in perk["PerRefinement"].split("|")])*self.refinementSelect.value()
                 vals=np.round(start_vs+per_vals,1)
@@ -98,7 +99,6 @@ class EquipmentBase(QWidget):
     def update_Equipment_Combobox(self,sort_val):
         current_item=self.itemSelect.currentText().split('(')[0].strip()
         self.itemSelect.clear()
-        # print(sort_val)
         vals=[]
         if("(" in sort_val) and (not "ALL" in sort_val) : 
             sort_parts=sort_val.split('(')
@@ -131,19 +131,21 @@ class EquipmentBase(QWidget):
             else:
                 color=QColor(255,255,255)
             self.itemSelect.model().item(i).setBackground(color)
-            # print(self.CommanderSelect.model().item(i).background())
         if(not found):
             self.itemSelect.setCurrentIndex(0)
         
     def get_stats(self):
         if(len(self.selected_Item)>0):
-            m=floor(self.selected_Item["CommanderMight"]*self.level_chart[self.strengthenSelect.value()])
-            f=floor(self.selected_Item["CommanderFocus"]*self.level_chart[self.strengthenSelect.value()])
-            s=floor(self.selected_Item["CommanderSpeed"]*self.level_chart[self.strengthenSelect.value()])
-            
-            return m,f,s
+            temp_df=pd.DataFrame([self.selected_Item.to_dict()])
+            invalid_columns=['Dwarves','Elves', 'Ents', 'Evil Men', 'Hobbits', 'Maiar', 'Men', 'Orcs',
+                             'Undead', 'Uruk-hai','Perks','Rarity','EquipmentType','Name']
+            temp_df.iloc[0,~np.in1d(temp_df.columns,invalid_columns)]=temp_df.iloc[0,~np.in1d(temp_df.columns,invalid_columns)]
+            temp_df.at[0,"Perks"]=self.perkSelect.currentText()+'|'
+            cols = temp_df.select_dtypes(np.number).columns
+            temp_df[cols] = temp_df[cols].mul(self.level_chart[self.strengthenSelect.value()])
+            return temp_df
         else:
-            return 0,0,0
+            return pd.DataFrame([])
         
         
         
