@@ -3,25 +3,28 @@ Created on Jun 20, 2022
 
 @author: Billy Culver
 '''
-from PySide2.QtWidgets import QWidget, QComboBox, QGridLayout, QLabel, QSpinBox
+from PySide6.QtWidgets import QWidget, QComboBox, QGridLayout, QLabel, QSpinBox
 from math import floor
-from PySide2.QtGui import QColor, QFont
+from PySide6.QtGui import QColor, QFont
 import numpy as np
 from fractions import Fraction
 from string import Template
 from textwrap import TextWrapper
 import pandas as pd
 class EquipmentBase(QWidget):
-
     def __init__(self,equip_df,perk_df):
+        
         QWidget.__init__(self)
         self.full_df=equip_df
+        
         self.perk_df=perk_df
+        
         self.itemSelect=QComboBox()
         self.itemSelect.setStyleSheet('selection-background-color: rgba(0,0,0,0)')
         self.itemSelect.setStyleSheet('QComboBox{selection-border-color: rgb(0,0,0);}')
         self.itemSelect.setFont(QFont("Arial",16)) 
         self.selected_Item=[]
+        
         self.refinement_label=QLabel("Refinement")
         self.strengthen_label=QLabel("Strengthen")
         self.strengthenSelect=QSpinBox()
@@ -91,6 +94,7 @@ class EquipmentBase(QWidget):
             self.refinementSelect.setMaximum(0)     
             
     def set_commander_restrictions(self,race,sort_val):
+        print("HERE")
         if(race=="IGNORE"):
             self.partial_df=self.full_df
         else:

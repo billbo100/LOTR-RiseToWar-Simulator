@@ -3,12 +3,11 @@ Created on Jun 22, 2022
 
 @author: Billy Culver
 '''
-from PySide2.QtWidgets import QWidget, QComboBox, QGridLayout, QLabel, QSpinBox,\
+from PySide6.QtWidgets import QWidget, QComboBox, QGridLayout, QLabel, QSpinBox,\
     QSlider
 import pandas as pd
-from PySide2.QtCore import Qt, Signal
+from PySide6.QtCore import Qt, Signal
 from Calculations.UnitDamage import CalcUnitDamage
-from sympy.physics.units.definitions.dimension_definitions import current
 class UnitBase(QWidget):
     dmg_changed=Signal()
     def __init__(self):
