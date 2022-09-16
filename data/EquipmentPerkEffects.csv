@@ -195,6 +195,7 @@ Rear Reinforcement,[Allied Ranged Units] Recover $VAL% HP each round,6,6
 Reckoning,[Every 5 Round(s)] [Against Target with the Lowest Defence] Deals $VAL% Physical Damage,100,100
 Relief,[Allied Commander] Focus Damage dealt +$VAL%,2,2
 Rend,[Allied Army] Physical Damage ignores $VAL% of target’s Defence,3,3
+Resilience of Giants,[Army] Defence (Large Units) $VAL,4,4
 Resilience of Archers,[Army] Defence (Ranged) $VAL,4,4
 Resilience of Dwarves,[Army] Defence (Dwarves) $VAL,4,4
 Resilience of Elves,[Army] Defence (Elves) $VAL,4,4

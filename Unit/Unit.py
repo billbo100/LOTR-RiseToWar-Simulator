@@ -30,7 +30,7 @@ class UnitBase(QWidget):
         self.UnitCount.valueChanged.connect(self.calculate_commands)
         self.UnitCount.valueChanged.connect(self.update_count_label)
         self.UnitCount.valueChanged.connect(self.update_dmg)
-        
+        self.UnitCount.valueChanged.connect(self.update_total_health)
         
         self.dmg_estimate=QLabel("Damage Estimate:")
         

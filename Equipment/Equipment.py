@@ -94,7 +94,6 @@ class EquipmentBase(QWidget):
             self.refinementSelect.setMaximum(0)     
             
     def set_commander_restrictions(self,race,sort_val):
-        print("HERE")
         if(race=="IGNORE"):
             self.partial_df=self.full_df
         else:

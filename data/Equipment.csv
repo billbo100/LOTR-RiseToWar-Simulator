@@ -1,117 +1,117 @@
 Name,EquipmentType,Chest,Rarity,CommanderMight,CommanderFocus,CommanderSpeed,Perks,RequiredRaces,UnitBonuses
-Bone Hatchet,Weapon,Good|Evil,1,4,1,0,N/A,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
-Broadsword,Weapon,Good|Evil,1,5,0,0,N/A,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
-Light Helm,Helmet,Good|Evil,1,4,0,2,N/A,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
-Ne'er Do Well's Coat,Armor,Good|Evil,1,3,0,4,N/A,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
-Orc Dagger,Weapon,Good|Evil,1,4,2,0,N/A,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
-Broad Axe,Weapon,Good|Evil,2,6,0,0,Melee Might|Dwarves Strength|Axe Throwers' Might| Dwarven Footmen's Might,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Attack(Melee)+1
-Garrison Coat,Armor,Good|Evil,2,6,0,0,Haste of Soldiers|Melee Vigour|Militias' Vigour|Grunts' Vigour,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,HP(Melee)+1
-Haradrim Bow,Weapon,Good|Evil,2,6,0,0,Ranged Might|Evil Men Strength|Mercenaries' Might|Bowmen's Might,Maiar|Men|Elves|Orcs|Uruk-hai|Undead|Evil Men,Attack(Ranged)+1
-Haradrim' Scarf,Helmet,Evil,2,6,6,0,Haste of Archers|Ranged Vigour|Skirmishers' Vigour|Mercenaries' Vigour,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
-Hunters Coat,Armor,Good|Evil,2,6,0,0,Haste of Archers|Ranged Vigour|Hunters' Vigour|Scouts' Vigour,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,HP(Ranged)+1
-Leather Armor,Armor,Good|Evil,2,8,3,3,Haste of Archers|Ranged Vigour|Dwarven Footmen's Vigour|Horseback Archers' Vigour,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
-Morningstar,Weapon,Good|Evil,2,6,0,0,Shatter|Melee Might|Skirmishers' Might|Balance Stone,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,HP(Melee)+1
-Old Casque,Helmet,Good|Evil,2,12,0,0,Haste of Soldiers|Melee Vigour|Breakers' Vigour|Orc Archers' Vigour,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
-Orc Crossbow,Weapon,Good|Evil,2,6,0,0,Venom|Orcs Strength|Orc Archers' Might|Balance Stone,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,HP(Ranged)+1
-Orc Scimitar,Weapon,Good|Evil,2,6,0,9,Flay|Orcs Strength|Grunts' Might|Breakers' Might,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Bone Hatchet,Weapon,Good|Evil,1,4,1,0,N/A,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,
+Broadsword,Weapon,Good|Evil,1,5,0,0,N/A,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,
+Light Helm,Helmet,Good|Evil,1,4,0,2,N/A,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,
+Ne'er Do Well's Coat,Armor,Good|Evil,1,3,0,4,N/A,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,
+Orc Dagger,Weapon,Good|Evil,1,4,2,0,N/A,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,
+Broad Axe,Weapon,Good|Evil,2,6,0,0,Melee Might|Dwarves Strength|Axe Throwers' Might| Dwarven Footmen's Might,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,Attack(Melee)+1
+Garrison Coat,Armor,Good|Evil,2,6,0,0,Haste of Soldiers|Melee Vigour|Militias' Vigour|Grunts' Vigour,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,HP(Melee)+1
+Haradrim Bow,Weapon,Good|Evil,2,6,0,0,Ranged Might|Evil Men Strength|Mercenaries' Might|Bowmen's Might,Maiar|Men|Elves|Orcs|Uruk-Hai|Undead|Evil Men,Attack(Ranged)+1
+Haradrim' Scarf,Helmet,Evil,2,6,6,0,Haste of Archers|Ranged Vigour|Skirmishers' Vigour|Mercenaries' Vigour,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,
+Hunters Coat,Armor,Good|Evil,2,6,0,0,Haste of Archers|Ranged Vigour|Hunters' Vigour|Scouts' Vigour,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,HP(Ranged)+1
+Leather Armor,Armor,Good|Evil,2,8,3,3,Haste of Archers|Ranged Vigour|Dwarven Footmen's Vigour|Horseback Archers' Vigour,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,
+Morningstar,Weapon,Good|Evil,2,6,0,0,Shatter|Melee Might|Skirmishers' Might|Balance Stone,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,HP(Melee)+1
+Old Casque,Helmet,Good|Evil,2,12,0,0,Haste of Soldiers|Melee Vigour|Breakers' Vigour|Orc Archers' Vigour,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,
+Orc Crossbow,Weapon,Good|Evil,2,6,0,0,Venom|Orcs Strength|Orc Archers' Might|Balance Stone,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,HP(Ranged)+1
+Orc Scimitar,Weapon,Good|Evil,2,6,0,9,Flay|Orcs Strength|Grunts' Might|Breakers' Might,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,
 Ranger's Dagger,Weapon,Good|Evil,2,8,0,6,Melee Might|Men Strength|Horsemen's Might|Horseback Archers' Might,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,
-Rough Breastplate,Armor,Good|Evil,2,6,0,0,Haste of Soldiers|Melee Vigour|Horsemen's Vigour|Bruisers' Vigour,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,Defense(Melee)+5
-Skull Cap,Helmet,,2,10,0,0,Valour|Melee Vigour|Bowmen's Vigour|Axe Throwers' Vigour,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Rough Breastplate,Armor,Good|Evil,2,6,0,0,Haste of Soldiers|Melee Vigour|Horsemen's Vigour|Bruisers' Vigour,Maiar|Men|Elves|Dwarves|Orcs|Uruk-Hai|Undead|Evil Men,Defense(Melee)+5
+Skull Cap,Helmet,,2,10,0,0,Valour|Melee Vigour|Bowmen's Vigour|Axe Throwers' Vigour,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,
 Spear of the Rangers,Weapon,Good|Evil,2,6,4,4,Mounted Might|Elves Strength|Light Cavalry's Might|Scouts' Might,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,
-Uruk-hai Pike,Weapon,Good|Evil,2,12,0,0,Pierce|Uruk-Hai Strength|Brusiers' Might|Balance Stone,Maiar|Men|Orcs|Uruk-hai|Undead|Evil Men,
+Uruk-Hai Pike,Weapon,Good|Evil,2,12,0,0,Pierce|Uruk-Hai Strength|Brusiers' Might|Balance Stone,Maiar|Men|Orcs|Uruk-Hai|Undead|Evil Men,
 Arnor Casque,Helmet,Good,3,6,10,0,Warding|Tenacity|Men Vigour|Blinding Barrier,Maiar|Men|Elves|Dwarves|Hobbits|Undead|Evil Men,
-Battle Axe,Weapon,Good|Evil,3,16,0,0,Flay|Concussion|Melee Might|Double Throw,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,
-Bone Mask,Helmet,Good|Evil,3,6,6,0,Manipulate|Hysteria|Relief|Scorch,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,HP(ALL)+1
-Bone Talisman,Accessory,Evil,3,4,10,6,Husbandry|Evil Men Strength|Siege of Evil Men|Spiked Armor,Maiar|Orcs|Uruk-hai|Undead|Evil Men,
-Brutal Helmet,Helmet,Evil,3,8,0,6,Dread|Melee Vigour|Uruk-hai Vigour|Devastate,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,HP(Melee)+1
-Carver,Weapon,Good|Evil,3,8,8,0,Smite|Flay|Men Strength|Last Will,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Attack(Men)+1|Attack(Evil Men)+1
-Cutlass,Weapon,Good|Evil,3,8,6,0,Smite|Flay|Melee Might|Overconfidence,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Attack(Melee)+1
-Drums of Moria,Accessory,Evil,3,4,4,6,Haste of Soldiers|Bane of Dwarves|Siege of Dwarves|Shadow Minion,Maiar|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Attack(Melee)+1
-Easterling Spear,Weapon,Evil,3,6,2,6,piece|Bane of Mounted Units|Mounted Might|Eastern Spear,Maiar|Men|Elves|Orcs|Uruk-hai|Undead|Evil Men|Ents,Attack(Evil Men)+1
+Battle Axe,Weapon,Good|Evil,3,16,0,0,Flay|Concussion|Melee Might|Double Throw,Maiar|Men|Elves|Dwarves|Orcs|Uruk-Hai|Undead|Evil Men,
+Bone Mask,Helmet,Good|Evil,3,6,6,0,Manipulate|Hysteria|Relief|Scorch,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,HP(ALL)+1
+Bone Talisman,Accessory,Evil,3,4,10,6,Husbandry|Evil Men Strength|Siege of Evil Men|Spiked Armor,Maiar|Orcs|Uruk-Hai|Undead|Evil Men,
+Brutal Helmet,Helmet,Evil,3,8,0,6,Dread|Melee Vigour|Uruk-Hai Vigour|Devastate,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,HP(Melee)+1
+Carver,Weapon,Good|Evil,3,8,8,0,Smite|Flay|Men Strength|Last Will,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,Attack(Men)+1|Attack(Evil Men)+1
+Cutlass,Weapon,Good|Evil,3,8,6,0,Smite|Flay|Melee Might|Overconfidence,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,Attack(Melee)+1
+Drums of Moria,Accessory,Evil,3,4,4,6,Haste of Soldiers|Bane of Dwarves|Siege of Dwarves|Shadow Minion,Maiar|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,Attack(Melee)+1
+Easterling Spear,Weapon,Evil,3,6,2,6,piece|Bane of Mounted Units|Mounted Might|Eastern Spear,Maiar|Men|Elves|Orcs|Uruk-Hai|Undead|Evil Men|Ents,Attack(Evil Men)+1
 Elven Dirk,Weapon,Good,3,6,6,4,Pierce|Bane of Archers|Ranged Might|Elven Craftsmanship,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,Speed(Elves)+5
-Full Helm,Helmet,Good|Evil,3,15,0,0,Inspire|Men Vigour|Melee Vigour|Blinding Barrier,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,
-Goblin Armor,Armor,Evil,3,12,4,0,Gallant|Poison Protection|Orcs Vigour|Disgust,Maiar|Orcs|Uruk-hai|Undead|Evil Men,Defense(Orcs)+3|Defense(Uruk-hai)+3
+Full Helm,Helmet,Good|Evil,3,15,0,0,Inspire|Men Vigour|Melee Vigour|Blinding Barrier,Maiar|Men|Elves|Dwarves|Orcs|Uruk-Hai|Undead|Evil Men,
+Goblin Armor,Armor,Evil,3,12,4,0,Gallant|Poison Protection|Orcs Vigour|Disgust,Maiar|Orcs|Uruk-Hai|Undead|Evil Men,Defense(Orcs)+3|Defense(Uruk-Hai)+3
 Harp of Lothlorien,Accessory,Good,3,0,12,0,Hunter's Mark|Sustain|Elves Strength|Melee Might,Maiar|Men|Elves|Dwarves|Hobbits|Ents,Speed(Elves)+5
 Hithlain,Accessory,Good,3,4,6,0,Mend|Bane of Orcs|Siege of Elves|Manoeuver,Maiar|Men|Elves|Dwarves|Hobbits|Ents,HP(ALL)+1
 Hobbit Fiddle,Accessory,Good,3,0,10,0,Husbandry|Sustatin|Haste of Dwarves|Dragon Slaying,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men|Ents,Speed(ALL)+5
-Horseman's Helm,Helmet,Good|Evil,3,8,0,8,Resolve|Warding|Mounted Vigour|Grinding Assault,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Defense(Mounted Units)+5
-Hunter's Skin,Armor,Good|Evil,3,0,8,6,Guard|Poison Protection|Ranged Vigour|Thrill of the Hunt,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Evil Men,Defense(Ranged)+5
+Horseman's Helm,Helmet,Good|Evil,3,8,0,8,Resolve|Warding|Mounted Vigour|Grinding Assault,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,Defense(Mounted Units)+5
+Hunter's Skin,Armor,Good|Evil,3,0,8,6,Guard|Poison Protection|Ranged Vigour|Thrill of the Hunt,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Evil Men,Defense(Ranged)+5
 Mirkwood Bow,Weapon,Good|Evil,3,8,0,6,Pierce|Ranged Might|Elves Strength|Sharpshooter,Maiar|Men|Elves|Evil Men,Attack(Ranged)+1
-Quilted Armor,Armor,Good|Evil,3,10,4,6,Attunement|Focus Protection|Melee Vigour|Mounted  Superiority,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
-Scale Mail,Armor,Good|Evil,3,6,6,0,Gallant|Guard|Melee Vigour|Upright,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,Defense(Melee)+5
-Scout's Mail,Armor,Good|Evil,3,10,0,12,Deftness|Shroud|Ranged Vigour|Tame,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
-Shield of the White Hand,Accessory,Evil,3,4,10,0,Haste of Uruk-hai|Siege of Uruk-Hai|Manoeuver|Blood Rush,Maiar|Orcs|Uruk-hai|Undead|Evil Men,Defense(Orcs)+4|Defense(Uruk-hai)+4
-Superior Hauberk,Armor,Evil,3,10,0,0,Shroud|Fire Protection|Melee Vigour|Digust,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Defense(ALL)+5
-Trapper's Hood,Helmet,Good|Evil,3,0,6,9,Hysteria|Poison|Ranged Vigour|Dragon Slaying,Maiar|Men|Elves|Hobbits|Uruk-hai|Undead|Evil Men|Ents,Attack(Ranged)+1
-Uruk Crossbow,Weapon,Evil,3,12,0,0,Venom|Shatter|Uruk-Hai Strength|Uruk Pride,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Attack(Ranged)+1
-Uruk-hai Broadsword,Weapon,Evil,3,12,0,0,Blaze|Pierce|Orc Strength|Blood Rush,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,HP(Orcs)+1|HP(Uruk-hai)+1
-War Hammer,Weapon,Good,3,12,0,0,Concussion|Shatter|Dwarves Strength|Dwarven Training,Maiar|Elves|Dwarves|Orcs|Uruk-hai|Undead|Ents,Defense(Dwarves)+7
+Quilted Armor,Armor,Good|Evil,3,10,4,6,Attunement|Focus Protection|Melee Vigour|Mounted  Superiority,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,
+Scale Mail,Armor,Good|Evil,3,6,6,0,Gallant|Guard|Melee Vigour|Upright,Maiar|Men|Elves|Dwarves|Orcs|Uruk-Hai|Undead|Evil Men,Defense(Melee)+5
+Scout's Mail,Armor,Good|Evil,3,10,0,12,Deftness|Shroud|Ranged Vigour|Tame,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,
+Shield of the White Hand,Accessory,Evil,3,4,10,0,Haste of Uruk-Hai|Siege of Uruk-Hai|Manoeuver|Blood Rush,Maiar|Orcs|Uruk-Hai|Undead|Evil Men,Defense(Orcs)+4|Defense(Uruk-Hai)+4
+Superior Hauberk,Armor,Evil,3,10,0,0,Shroud|Fire Protection|Melee Vigour|Digust,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,Defense(ALL)+5
+Trapper's Hood,Helmet,Good|Evil,3,0,6,9,Hysteria|Poison|Ranged Vigour|Dragon Slaying,Maiar|Men|Elves|Hobbits|Uruk-Hai|Undead|Evil Men|Ents,Attack(Ranged)+1
+Uruk Crossbow,Weapon,Evil,3,12,0,0,Venom|Shatter|Uruk-Hai Strength|Uruk Pride,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,Attack(Ranged)+1
+Uruk-Hai Broadsword,Weapon,Evil,3,12,0,0,Blaze|Pierce|Orc Strength|Blood Rush,Maiar|Men|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,HP(Orcs)+1|HP(Uruk-Hai)+1
+War Hammer,Weapon,Good,3,12,0,0,Concussion|Shatter|Dwarves Strength|Dwarven Training,Maiar|Elves|Dwarves|Orcs|Uruk-Hai|Undead|Ents,Defense(Dwarves)+7
 Wizard's Fireworks,Accessory,Good|Evil,3,0,12,0,Hunter's Mark|Bane of Mounted Units|Ranged Might|Mend,Maiar|Men|Dwarves|Hobbits|Evil Men,Attack(Ranged)+1
-Worn-out Smoking Pipe,Accessory,Good|Evil,3,0,15,0,Husbandry|Sustain|Haste of Dwarves|Dragon Slaying,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Evil Men|Ents,
+Worn-out Smoking Pipe,Accessory,Good|Evil,3,0,15,0,Husbandry|Sustain|Haste of Dwarves|Dragon Slaying,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Evil Men|Ents,
 Ancient Numenorean Helm?,Helmet,,4,12,6,0,Fortitude of Elves|Dominion|Shock|Tranquility|Formation Break,,HP(Men)+1
-Axe of Khazad-dum,Weapon,Good|Evil,4,21,0,0,Cleave|Motivate|Might of Dwarves|Panic|Strip Armour,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men|Ents,
+Axe of Khazad-dum,Weapon,Good|Evil,4,21,0,0,Cleave|Motivate|Might of Dwarves|Panic|Strip Armour,Maiar|Men|Elves|Dwarves|Orcs|Uruk-Hai|Undead|Evil Men|Ents,
 Belt of the Citadel?,Accessory,,4,12,8,0,Arnor Defense|Improved Manoeuver,,
-Berserker's Gaze,Helmet,Evil,4,18,0,0,Curse|Determination|Fortitude of Uruk-hai|Shock|Resolve of Uruk-hai,Maiar|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,Attack(Uruk-hai)+1
-Berserker's Raiment,Armor,Evil,4,18,0,0,Forestall|Vulnerability|Resilience of Uruk-hai|Fortitude of Uruk-hai|Concentration,Maiar|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,HP(Uruk-hai)+1
-Black Bow,Weapon,Evil,4,18,4,0,Cleave|Motivate|Might of Archers|An Eye for an Eye|Might of Orcs,Maiar|Men|Orcs|Uruk-hai|Undead|Evil Men,Attack(Ranged)+1
+Berserker's Gaze,Helmet,Evil,4,18,0,0,Curse|Determination|Fortitude of Uruk-Hai|Shock|Resolve of Uruk-Hai,Maiar|Dwarves|Orcs|Uruk-Hai|Undead|Evil Men,Attack(Uruk-Hai)+1
+Berserker's Raiment,Armor,Evil,4,18,0,0,Forestall|Vulnerability|Resilience of Uruk-Hai|Fortitude of Uruk-Hai|Concentration,Maiar|Dwarves|Orcs|Uruk-Hai|Undead|Evil Men,HP(Uruk-Hai)+1
+Black Bow,Weapon,Evil,4,18,4,0,Cleave|Motivate|Might of Archers|An Eye for an Eye|Might of Orcs,Maiar|Men|Orcs|Uruk-Hai|Undead|Evil Men,Attack(Ranged)+1
 Blazing Tongue?,Weapon,,4,18,0,0,Scorch|Mind Split|Might of Evil Men|Panic|Ignition,,Attack(ALL)+1
-Bone Armour,Armor,Evil,4,12,5,0,Serenity|Mindfulness|Resilience of Trolls|Fortitude of Orcs|Tactical Retreat,Maiar|Orcs|Uruk-hai|Undead|Evil Men,Defense(Orcs)+8
+Bone Armour,Armor,Evil,4,12,5,0,Serenity|Mindfulness|Resilience of Trolls|Fortitude of Orcs|Tactical Retreat,Maiar|Orcs|Uruk-Hai|Undead|Evil Men,Defense(Orcs)+8
 Bow of the High Elves,Weapon,Good|Evil,4,14,4,0,Rend|Mind Split|Might of Elves|Might of Cavalry|Reckoning,Maiar|Men|Elves|Evil Men,Speed(Ranged)+5
-Box of Knowledge,Accessory,Good|Evil,4,8,8,0,Lore of the Arcane - Warrior|Lore of the Arcane - Strategist|Lore of the Arcane - Leader|Lore of the Arcane - Support|Lore of the Arcane - Balance,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men|Ents,HP(ALL)+1
-Casque of Pride,Helmet,Good|Evil,4,11,0,0,Unwavering|War Cry|Fortitude of Soldier|Terror|Melee Suppression,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Defense(Melee)+10
-Casque of the Submerged Isle,Helmet,Good|Evil,4,10,10,4,Determination|Last Resort|Formation Break|Aegis|Intimidation,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
+Box of Knowledge,Accessory,Good|Evil,4,8,8,0,Lore of the Arcane - Warrior|Lore of the Arcane - Strategist|Lore of the Arcane - Leader|Lore of the Arcane - Support|Lore of the Arcane - Balance,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men|Ents,HP(ALL)+1
+Casque of Pride,Helmet,Good|Evil,4,11,0,0,Unwavering|War Cry|Fortitude of Soldier|Terror|Melee Suppression,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,Defense(Melee)+10
+Casque of the Submerged Isle,Helmet,Good|Evil,4,10,10,4,Determination|Last Resort|Formation Break|Aegis|Intimidation,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,
 Caul of the Forest,Helmet,Good,4,0,8,0,War Cry|Beasts' Toughness|Woodland Protection|Defensive Stance|Curse,Maiar|Men|Elves|Dwarves|Hobbits|Undead|Evil Men|Ents,Defense(Beasts)+15
-Chieftain's Gaze,Helmet,Evil,4,12,8,0,Melee Supression|Arrow Suppression|Cavalry Suppression|Uruk-hai Armor|Uruk-hai Command,Maiar|Uruk-hai,Attack(Uruk-hai)+1
+Chieftain's Gaze,Helmet,Evil,4,12,8,0,Melee Supression|Arrow Suppression|Cavalry Suppression|Uruk-Hai Armor|Uruk-Hai Command,Maiar|Uruk-Hai,Attack(Uruk-Hai)+1
 Cruel Hooks?,Weapon,,4,10,0,0,Might of Soldiers|Retaliate|Lethal Weapon|Accelerate|Melee Blitz,,Attack(Melee)+1|Attack(Berserkers)+1|HP(Berserkers)-1)
 Dawn,Weapon,Good,4,15,0,0,Trauma|Bane of Soldiers|Might of Men|Lethal Weapon|Strip Armour,Maiar|Men|Elves|Dwarves|Hobbits,Speed(Men)+9
 Defender of the Mountain,Accessory,Good,4,0,14,0,Might of Dwarves|Iron Guard|Wound Treatment|Alarm|Hold the Line,Maiar|Dwarves,Defense(Dwarves)+10
-Drums of Barad-dur,Accessory,Evil,4,8,10,0,Irreparable Injury|Iron Guard|Might of Soldiers|Improved Manoeuver,Maiar|Orcs|Uruk-hai|Undead|Evil Men,Attack(Melee)+1
-Durin's Plate,Armor,Good,4,14,0,0,Dominance|Vulnerability|Resilience of Soldiers|Fortitude of Dwarves|Tactical Manoeuvers,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,HP(Dwarves)+1|Attack(Dwarves)+1
-Easterling Helm,Helmet,Evil,4,10,6,0,War Cry|Courage|Fortitude of Evil Men|Intimidation|Resolve of Evil Men,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Defense(Evil Men)+8
+Drums of Barad-dur,Accessory,Evil,4,8,10,0,Irreparable Injury|Iron Guard|Might of Soldiers|Improved Manoeuver,Maiar|Orcs|Uruk-Hai|Undead|Evil Men,Attack(Melee)+1
+Durin's Plate,Armor,Good,4,14,0,0,Dominance|Vulnerability|Resilience of Soldiers|Fortitude of Dwarves|Tactical Manoeuvers,Maiar|Men|Elves|Dwarves|Orcs|Uruk-Hai|Undead|Evil Men,HP(Dwarves)+1|Attack(Dwarves)+1
+Easterling Helm,Helmet,Evil,4,10,6,0,War Cry|Courage|Fortitude of Evil Men|Intimidation|Resolve of Evil Men,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,Defense(Evil Men)+8
 Elven Cloak,Armor,Good,4,0,12,6,Unity|Resistance|Resilience of Elves|Fortitude of Elves|Hazard Training,Maiar|Men|Elves|Dwarves|Hobbits|Ents,HP(ALL)+1
 Elven White Knife,Weapon,Good,4,12,0,0,Frenzy|Bane of Giants|Might of Elves|An Eye for an Eye|Specialist,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,Attack(Elves)+2
-Ent'draught Calabash,Accessory,Good,4,10,0,0,Wound Treatment|Ents' Rage|Hobbits' Health|Gift of Nature|Bane of Giants,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men|Ents,HP(ALL)+2
+Ent'draught Calabash,Accessory,Good,4,10,0,0,Wound Treatment|Ents' Rage|Hobbits' Health|Gift of Nature|Bane of Giants,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men|Ents,HP(ALL)+2
 Erebor's Pride,Accessory,Good,4,10,0,0,Second Wind|Iron Guard|Might of Dwarves|Bane of Evil Men|Ered Luin Formation,Maiar|Men|Dwarves|Hobbits|Evil Men,HP(Dwarves)+2
 Explorer's Outfit,Armor,Good,4,10,10,0,Resilience of Men|Hobbits' Tenacity|Mindfulness|The Pathbreaker|Spirit of Adventure,Maiar|Men|Hobbits,HP(Men)+1|HP(Hobbits)+1
 Fiddle of the Eldest,Accessory,Good|Evil,4,4,10,0,Improved Husbandry|Blitz|Might of Soldiers|Second Wind|Heroism,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men|Ents,Defense(ALL)+5|Speed(ALL)+5
-Fine Smoking Pipe,Accessory,Good|Evil,4,0,20,0,Heroism|Critical Care|Second Wind|Improved Husbandry|Defensive Tactics,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Evil Men|Ents,HP(Melee)+1
-Gigantic Hammer,Weapon,,4,14,0,0,Giant's Power|Rend|Frenzy|Trolls' Command|Break Defenses,Maiar|Men|Dwarves|Uruk-hai|Evil Men|Ents,Attack(ALL)+2|Attack(Large Units)+30
-Golden Skin,Armor,Good|Evil,4,12,12,0,Dominance|Improved Shroud|Fortitude of Cavalry|Concentration|Contemplate,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,
-Greatplate of the East,Armor,Evil,4,10,0,0,Forestall|Fortitude of Cavalry|Resilience of Evil Men|Fortitude of Evil Men|Hazard Training,Maiar|Men|Uruk-hai|Evil Men,HP(Evil Men)+2
+Fine Smoking Pipe,Accessory,Good|Evil,4,0,20,0,Heroism|Critical Care|Second Wind|Improved Husbandry|Defensive Tactics,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Evil Men|Ents,HP(Melee)+1
+Gigantic Hammer,Weapon,,4,14,0,0,Giant's Power|Rend|Frenzy|Trolls' Command|Break Defenses,Maiar|Men|Dwarves|Uruk-Hai|Evil Men|Ents,Attack(ALL)+2|Attack(Large Units)+30
+Golden Skin,Armor,Good|Evil,4,12,12,0,Dominance|Improved Shroud|Fortitude of Cavalry|Concentration|Contemplate,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,
+Greatplate of the East,Armor,Evil,4,10,0,0,Forestall|Fortitude of Cavalry|Resilience of Evil Men|Fortitude of Evil Men|Hazard Training,Maiar|Men|Uruk-Hai|Evil Men,HP(Evil Men)+2
 Grey Wizard hat,Helmet,Good,4,0,16,0,Fortitude of Cavalry|Arrow Suppression|Courage|Dominion|Tranquility,Maiar|Men|Elves|Dwarves|Hobbits|Undead|Evil Men|Ents,HP(Men)+1|HP(Elves)+1|HP(Dwarves)+1|HP(Hobbits)+1
-Hammer of Moria,Weapon,Good,4,17,0,0,Trauma|Panic|Might of Dwarves|Lethal Weapon|Dominate,Maiar|Dwarves|Orcs|Uruk-hai|Undead|Evil Men|Ents,Defense(Dwarves)+8
+Hammer of Moria,Weapon,Good,4,17,0,0,Trauma|Panic|Might of Dwarves|Lethal Weapon|Dominate,Maiar|Dwarves|Orcs|Uruk-Hai|Undead|Evil Men|Ents,Defense(Dwarves)+8
 High Elf Hauberk,Armor,Good,4,12,6,4,Unity|Resistance|Resilience of Elves|Fortitude of Elves|Mindfulness,Maiar|Men|Elves|Dwarves|Hobbits,Defense(Elves)+5
 High Elf's Helmet,Helmet,Good,4,6,10,0,Unwavering|Fortitude of Archers|Fortitude of Elves|Resolve of Elves|Cavalry Suppression,Maiar|Men|Elves|Dwarves|Hobbits,Defense(Elves)+5
-hunter's Guide,Helmet,Good|Evil,4,9,9,0,Aegis|Last Resort|Fortitude of Archers|Discord|Melee Suppression,Maiar|Men|Elves|Dwarves|Uruk-hai|Evil Men,Attack(Ranged)+1
-Iron Basinet,Helmet,Good,4,14,0,0,Fortitude of Soldiers|Unwavering|Fortitude of Dwarves|Resolve of Dwarves|Arrow Suppression,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Defense(Dwarves)+10
+hunter's Guide,Helmet,Good|Evil,4,9,9,0,Aegis|Last Resort|Fortitude of Archers|Discord|Melee Suppression,Maiar|Men|Elves|Dwarves|Uruk-Hai|Evil Men,Attack(Ranged)+1
+Iron Basinet,Helmet,Good,4,14,0,0,Fortitude of Soldiers|Unwavering|Fortitude of Dwarves|Resolve of Dwarves|Arrow Suppression,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,Defense(Dwarves)+10
 Lhang,Weapon,Good,4,12,8,0,Cleave|Counterstrike|Might of Elves|Retaliate|Reckoning,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,HP(Elves)+1
 Lothlorien Belt,Accessory,Good,4,0,12,10,Rear Reinforcement|Wound Treatment|Might of Elves|Iron Guard|Lindon's Inheritance,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,Speed(Ranged)+8
-Massive Breastplate,Armor,Good|Evil,4,8,0,0,Resilience of Giants|Might Extraction|Concentration|Significant Protection|Plated Armor,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men|Ents,Defense(ALL)+10|Defense(Large Units)+5
-Mattock of the Iron Hills,Weapon,Good,4,13,0,0,Retaliate|Motivate|Might of Dwarves|Fury|Dominate,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men|Ents,Attack(Dwarves)+2
+Massive Breastplate,Armor,Good|Evil,4,8,0,0,Resilience of Giants|Might Extraction|Concentration|Significant Protection|Plated Armor,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men|Ents,Defense(ALL)+10|Defense(Large Units)+5
+Mattock of the Iron Hills,Weapon,Good,4,13,0,0,Retaliate|Motivate|Might of Dwarves|Fury|Dominate,Maiar|Men|Elves|Dwarves|Orcs|Uruk-Hai|Undead|Evil Men|Ents,Attack(Dwarves)+2
 Mirkwood's Thorns,Weapon,Good|Evil,4,4,10,0,Poison Coating|Blight|Beats' Power|Toxin|Animal Husbandry,Maiar|Elves|Ents,Attack(Beasts)+2
-Mithril Coat,Armor,Good|Evil,4,8,0,0,Barrier|Improved Shroud|Resilience of Dwarves|Serentiy|Tactical Manoeuvers,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Defense(ALL)+12
-Morgul Blade,Weapon,Evil,4,8,8,4,Blight|Frenzy|Might of Uruk-hai|Poison Coating|Specialist,Maiar|Orcs|Uruk-hai|Undead|Evil Men,Attack(Orcs)+1|Attack(Uruk-hai)+1|Attack(Trolls)+1
-Night Star,Accessory,Good,4,4,14,4,Rear Reinforcement|Tactical Mark|Might of Archers|Bane of Uruk-hai|Opportune Strike,Maiar|Men|Elves|Dwarves|Hobbits|Ents,Speed(Men)+5
-Nightfall,Weapon,Good|Evil,4,14,0,9,Retaliate|Venom|Might of Uruk-hai|An Eye for an Eye|Battered,Maiar|Men|Orcs|Uruk-hai|Undead|Evil Men,Speed(Uruk-Hai)+5
+Mithril Coat,Armor,Good|Evil,4,8,0,0,Barrier|Improved Shroud|Resilience of Dwarves|Serentiy|Tactical Manoeuvers,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,Defense(ALL)+12
+Morgul Blade,Weapon,Evil,4,8,8,4,Blight|Frenzy|Might of Uruk-Hai|Poison Coating|Specialist,Maiar|Orcs|Uruk-Hai|Undead|Evil Men,Attack(Orcs)+1|Attack(Uruk-Hai)+1|Attack(Trolls)+1
+Night Star,Accessory,Good,4,4,14,4,Rear Reinforcement|Tactical Mark|Might of Archers|Bane of Uruk-Hai|Opportune Strike,Maiar|Men|Elves|Dwarves|Hobbits|Ents,Speed(Men)+5
+Nightfall,Weapon,Good|Evil,4,14,0,9,Retaliate|Venom|Might of Uruk-Hai|An Eye for an Eye|Battered,Maiar|Men|Orcs|Uruk-Hai|Undead|Evil Men,Speed(Uruk-Hai)+5
 Noldor Sword,Weapon,Good,4,10,5,5,Mind Split|Might of Soldiers|Accelerate|Amplification|Battered,Maiar|Men|Elves|Dwarves|Hobbits|Evil Men,Attack(Men)+1|Attack(Elves)+1
 Obsidian Dagger,Weapon,Good|Evil,4,8,12,0,Amplification|Power of Immortality|Sharp Point|Evil's Threat|Resurrection,Maiar|Undead|Evil Men,Attack(Undead)+1
 Orcish Great Helm,Helmet,Evil,4,14,0,0,Fortitdue of Soldiers|Determination|Unwavering|Orcish Armor|Orcish Overlord,Maiar|Orcs,Defense(Orcs)+10|Defense(Trolls)+10
-Orthanc's Devilrry,Accessory,Evil,4,12,0,0,Tactical Mark|Opportune Strike|Might of Uruk-hai|Bane of Men|Isen Elixir,Maiar|Orcs|Uruk-hai|Undead,Siege(Uruk-hai)+4
-Palantir of Orthanc,Accessory,Evil,4,2,14,0,Irreparable Injury|Tactical Mark|Might of Soldiers|Bane of Elves|Isen Elixir,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men|Ents,Attack(ALL)+1
-Plate of the Citadel,Armor,Good,4,4,12,0,Barrier|Serentiy|Resilience of Men|Fortitude of Men|Tactical Retreat,Maiar|Men|Elves|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,Defense(Men)+9
-Protection of Numenor,Armor,Evil,4,14,0,0,Resilience of Evil Men|Undying Toughness|Eastern Resolve|Spirit Awaken|Resilience of Giants,Maiar|Men|Uruk-hai|Undead|Evil Men,HP(Undead)+2|HP(Evil Men)+2
-Ranger's Shroud,Armor,Good|Evil,4,9,0,14,Improved Shroud|Resistance|Resilience of Archers|Contemplate|Strength from Dexterity,Maiar|Men|Elves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Attack(Ranged)+1
-Reach of the Riddermark,Weapon,Good|Evil,4,10,0,10,Cleave|Accelerate|Might of Cavalry|Sharp Point|Battered,Maiar|Men|Elves|Orcs|Uruk-hai|Undead|Evil Men|Ents,Speed(Mounted Units)+8
-Reckoning,Weapon,Evil,4,13,0,10,Accelerate|Retaliate|Might of Soldiers|Fury|Reckoning,Maiar|Orcs|Uruk-hai|Undead|Evil Men,Attack(Orcs)+1|Attack(Uruk-hai)+1|Attack(Evil Men)+1
-Sand Claw,Weapon,Good|Evil,4,10,4,9,Blight|Poison Coating|Might of Evil Men|Rend|Specialist,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Attack(Evil Men)+1
-Signet of the Barrows,Accessory,Evil,4,10,0,0,Critical Care|Blitz|Might of Evil Men|Bane of Dwarves|Wilderland Threats,Maiar|Orcs|Uruk-hai|Undead|Evil Men,HP(Orcs)+1|HP(Evil Men)+1|Speed(Orcs)+7|Speed(Evil Men)+7
+Orthanc's Devilrry,Accessory,Evil,4,12,0,0,Tactical Mark|Opportune Strike|Might of Uruk-Hai|Bane of Men|Isen Elixir,Maiar|Orcs|Uruk-Hai|Undead,Siege(Uruk-Hai)+4
+Palantir of Orthanc,Accessory,Evil,4,2,14,0,Irreparable Injury|Tactical Mark|Might of Soldiers|Bane of Elves|Isen Elixir,Maiar|Men|Elves|Dwarves|Orcs|Uruk-Hai|Undead|Evil Men|Ents,Attack(ALL)+1
+Plate of the Citadel,Armor,Good,4,4,12,0,Barrier|Serentiy|Resilience of Men|Fortitude of Men|Tactical Retreat,Maiar|Men|Elves|Dwarves|Orcs|Uruk-Hai|Undead|Evil Men,Defense(Men)+9
+Protection of Numenor,Armor,Evil,4,14,0,0,Resilience of Evil Men|Undying Toughness|Eastern Resolve|Spirit Awaken|Resilience of Giants,Maiar|Men|Uruk-Hai|Undead|Evil Men,HP(Undead)+2|HP(Evil Men)+2
+Ranger's Shroud,Armor,Good|Evil,4,9,0,14,Improved Shroud|Resistance|Resilience of Archers|Contemplate|Strength from Dexterity,Maiar|Men|Elves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,Attack(Ranged)+1
+Reach of the Riddermark,Weapon,Good|Evil,4,10,0,10,Cleave|Accelerate|Might of Cavalry|Sharp Point|Battered,Maiar|Men|Elves|Orcs|Uruk-Hai|Undead|Evil Men|Ents,Speed(Mounted Units)+8
+Reckoning,Weapon,Evil,4,13,0,10,Accelerate|Retaliate|Might of Soldiers|Fury|Reckoning,Maiar|Orcs|Uruk-Hai|Undead|Evil Men,Attack(Orcs)+1|Attack(Uruk-Hai)+1|Attack(Evil Men)+1
+Sand Claw,Weapon,Good|Evil,4,10,4,9,Blight|Poison Coating|Might of Evil Men|Rend|Specialist,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,Attack(Evil Men)+1
+Signet of the Barrows,Accessory,Evil,4,10,0,0,Critical Care|Blitz|Might of Evil Men|Bane of Dwarves|Wilderland Threats,Maiar|Orcs|Uruk-Hai|Undead|Evil Men,HP(Orcs)+1|HP(Evil Men)+1|Speed(Orcs)+7|Speed(Evil Men)+7
 Silver Harp of Rivendell,Accessory,Good,4,4,16,0,Wound Treatment|Iron Guard|Might of Elves|Bane of Orcs|Lindon's Inheritance,Maiar|Men|Elves|Dwarves|Hobbits|Ents,Defense(Elves)+5
-Spear of Udun,Weapon,Evil,4,10,4,6,Blight|Trauma|Might of Cavalry|Sharp Point|Might of Orcs,Maiar|Orcs|Uruk-hai|Undead,Speed(Orcs)+5|Speed(Trolls)+5|Speed(Beasts)+5
-Swan Helm,Helmet,Good,4,4,16,0,Courage|Unwavering|Fortitude of Men|Resolve of Men|Arrow Suppression,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-hai|Undead|Evil Men,Defense(Men)+5
-The Black Mace,Weapon,Evil,4,16,4,0,An Eye for an Eye|Panic|Might of Orcs|Lethal Weapon|Dominate,Maiar|Dwarves|Orcs|Uruk-hai|Undead|Ents,Attack(Orcs)+1
-Tracker Plate,Armor,Evil,4,8,6,0,Riders' Rush|Manoeuver|Strength from Dexterity|Resilience of Orcs|,Maiar|Orcs|Uruk-hai|Undead|Evil Men,Defense(Orcs)+10|Defense(Uruk-hai)+10
-War Helm,Helmet,Evil,4,10,10,0,Discord|Terror|Fortitude of Orcs|War Cry|Resolve of Orcs,Maiar|Orcs|Uruk-hai|Undead|Evil Men,Defense(Orcs)+5
-Warborn Battle Plate,Armor,Good|Evil,4,11,0,0,Forestall|Improved Shroud|Resilience of Soldiers|Fortitude of Soldiers|Strength from Dexterity,Maiar|Men|Dwarves|Orcs|Uruk-hai|Undead|Evil Men,Defense(Melee)+5|Speed(Melee)+5
+Spear of Udun,Weapon,Evil,4,10,4,6,Blight|Trauma|Might of Cavalry|Sharp Point|Might of Orcs,Maiar|Orcs|Uruk-Hai|Undead,Speed(Orcs)+5|Speed(Trolls)+5|Speed(Beasts)+5
+Swan Helm,Helmet,Good,4,4,16,0,Courage|Unwavering|Fortitude of Men|Resolve of Men|Arrow Suppression,Maiar|Men|Elves|Dwarves|Hobbits|Orcs|Uruk-Hai|Undead|Evil Men,Defense(Men)+5
+The Black Mace,Weapon,Evil,4,16,4,0,An Eye for an Eye|Panic|Might of Orcs|Lethal Weapon|Dominate,Maiar|Dwarves|Orcs|Uruk-Hai|Undead|Ents,Attack(Orcs)+1
+Tracker Plate,Armor,Evil,4,8,6,0,Riders' Rush|Manoeuver|Strength from Dexterity|Resilience of Orcs|,Maiar|Orcs|Uruk-Hai|Undead|Evil Men,Defense(Orcs)+10|Defense(Uruk-Hai)+10
+War Helm,Helmet,Evil,4,10,10,0,Discord|Terror|Fortitude of Orcs|War Cry|Resolve of Orcs,Maiar|Orcs|Uruk-Hai|Undead|Evil Men,Defense(Orcs)+5
+Warborn Battle Plate,Armor,Good|Evil,4,11,0,0,Forestall|Improved Shroud|Resilience of Soldiers|Fortitude of Soldiers|Strength from Dexterity,Maiar|Men|Dwarves|Orcs|Uruk-Hai|Undead|Evil Men,Defense(Melee)+5|Speed(Melee)+5
 Estecara?,Weapon,,4,14,4,4,Strip Armour|Might of Elves|Counterstrike|Frenzy|Rend,,Attack(Elves)+1
 Harad Casque?,Helmet,,4,10,4,0,Fortitude of Evil Men|Unwavering|Resolve of Evil Men|Evil Man Overlord|Southern Leader|Resistance,,Defense(Evil Men)+10
 Mearas' Reins?,Accessory,,4,0,8,0,Might of Cavalry|Riders' Rush|Mounted Unit Supply|Fine Horse|Fearless Cavalry,,Attack(Mounted Units)+1|HP(Mounted Units)+1|

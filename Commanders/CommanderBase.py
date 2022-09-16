@@ -22,6 +22,9 @@ class Commander(QWidget):
         self.RespectSelect.setMinimum(0)
         self.RespectSelect.setMaximum(25)
         
+        self.might_stat=0
+        self.focus_stat=0
+        self.speed_stat=0
         
         self.CommanderMight=QLabel("Might:")
         self.CommanderFocus=QLabel("Focus:")
@@ -37,12 +40,4 @@ class Commander(QWidget):
         l.addWidget(self.CommanderSpeed,1,2)
         self.setLayout(l)
         
-        
-        
-    
-    def set_update_equipment_sorting(self):
-        self.weapon.set_commander_restrictions(self.Commander['Race'],self.Equipment_sort.currentText())
-        self.chest.set_commander_restrictions(self.Commander['Race'],self.Equipment_sort.currentText())
-        self.head.set_commander_restrictions(self.Commander['Race'],self.Equipment_sort.currentText())
-        self.accessory.set_commander_restrictions(self.Commander['Race'],self.Equipment_sort.currentText())
 

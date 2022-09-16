@@ -94,10 +94,7 @@ class Army(QFrame):
             
             
             
-            # l.addWidget(self.enemy_defense,4,0,1,3)
-            # l.addWidget(self.buffs,5,0,1,3)
-            # l.addWidget(self.debuffs,6,0,1,3)
-            # l.addWidget(self.DamageEstimate,7,0,1,3)
+            
             self.setLayout(l)
         except Exception as e:
             exc_type, _, exc_tb = sys.exc_info()
